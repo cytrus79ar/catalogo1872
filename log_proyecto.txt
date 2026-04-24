@@ -1,0 +1,4 @@
+FECHA_HORA: 2026-04-19 11:15
+OBJETIVO: Generar lista de precios resumida en formato TXT.
+RESULTADO: Archivo lista_precios_resumida.txt creado exitosamente.
+PASOS_CLAVE: 1. Extracción de datos del catálogo actualizado (Modelo, Capacidad, Precio). 2. Formateo de texto plano para facilitar la lectura rápida y el copiado.

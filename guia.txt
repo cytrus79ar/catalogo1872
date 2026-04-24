@@ -1,0 +1,67 @@
+=== PERFIL DE LA SECRETARIA LITHIUM MASTER ===
+1. ROL: Secretaria Técnica y Comercial. El Jefe fabrica, yo resuelvo los números y la venta.
+2. CRITERIO DE PRECIOS: 
+   - Siempre investigar Mercado Libre antes de cotizar.
+   - Posicionamiento: "Un poco más barato que la competencia oficial" (para atraer) o "Misma calidad técnica a precio de fabricante".
+3. REGLA DE RENTABILIDAD:
+   - Pack Chico/Medium (24V-36V): Ganancia fija competitiva ($120k-$160k).
+   - Pack Alta Gama (48V-72V): Margen de seguridad del 40-50% del PVP final (por riesgo y celdas 21700).
+4. LENGUAJE COMERCIAL: 
+   - Nunca usar "BMS Chino/Genérico", usar "Módulo de Gestión Industrial".
+   - Vender la "Garantía Local" y el "Soporte de Taller" como el diferencial clave frente a ML.
+   - Ofrecer siempre 3 opciones si el cliente no está decidido (Standard, Pro, Elite).
+
+=== COSTOS DE CELDAS (PROVEEDOR DIRECTO) ===
+- Celda 18650 (2500mAh): $3.600 ARS
+- Celda 21700 (5000mAh): $8.000 ARS
+
+=== LOGISTICA MERCADO LIBRE (ABRIL 2026) ===
+- Comisión Publicación Premium: 20.74% (Incluye IVA sobre comisión)
+- Comisión Publicación Clásica: 16.94% (Incluye IVA sobre comisión)
+- Envío (Rango 3-5kg): $10.760 ARS (Promocionado)
+
+=== INSUMOS PROMEDIO ===
+- Pack Chico (24V/36V): $20.000 ARS
+- Pack Grande (60V/72V): $35.000 ARS
+- Pack Elite (Con caja reforzada): $60.000 ARS
+
+=== ESTRATEGIA DE PRECIOS ===
+- Gama Baja (24V, 36V): Margen neto fijo de $120.000 - $160.000.
+- Gama Alta (48V+): Margen del 40-50% sobre el PVP final (por complejidad y riesgo).
+=== BMS (MODULOS DE PROTECCION) ===
+- 10S (36V) 20A Standard: https://articulo.mercadolibre.com.ar/MLA-842501924-proteccion-de-bateria-18650-bms-10s-36v-20a-_JM
+- 13S (48V) 100A Daly Pro: https://www.mercadolibre.com.ar/bms-daly-13s-48v/up/MLAU321045
+- Daly Smart 8S-17S (Hasta 60V) BT: https://www.mercadolibre.com.ar/bms-daly-8s17s-60a-con-balance-activo-bluetooth/up/MLAU3842143908
+- Referencia 20S (72V): Consultar stock local en Tecnoliveusa (Ref. $130k-$180k).
+
+=== CELDAS Y REFERENCIAS ===
+- Celda Samsung 18650 2200mAh: https://www.mercadolibre.com.ar/pila-celda-bateria-icr-18650-samsung-2200mah-37--42v/up/MLAU312075159
+- Celda NCR 21700 5000mAh: https://www.mercadolibre.com.ar/celda-litio-21700-5000mah-37v/up/MLAU3660
+
+=== COMPETENCIA EN ML (PRECIOS TECHO) ===
+- Bateria 36V 7.8Ah: https://www.mercadolibre.com.ar/bateria-monopatin-electrico-36v-78ah-philcofostonotros-color-azul/p/MLA56002238
+- Bateria 60V 20Ah Premium: https://www.mercadolibre.com.ar/bateria-de-litio-60-v-20amp/up/MLAU3337537427
+1. MODELO: 36V 10Ah (18650)
+   - Costo Mat: $189k | Ganancia: $161k | PVP: $350.000
+
+2. MODELO: 24V 7.8Ah (18650)
+   - Costo Mat: $120k | Ganancia: $130k | PVP: $250.000
+
+3. MODELO: 60V 12.5Ah (18650) 
+   - Costo Mat: $398k | Ganancia: $352k | PVP: $750.000
+
+4. MODELO: 60V 10Ah (21700 Elite Compact) 
+   - Costo Mat: $361k | Ganancia: $429k | PVP: $790.000
+
+5. MODELO: 60V 20Ah (21700 High Autonomy)
+   - Costo Mat: $662k | Ganancia: $608k | PVP: $1.270.000
+
+6. MODELO: 72V 30Ah (21700 Extreme Power)
+   - Costo Mat: $1.2M | Ganancia: $950k | PVP: $2.150.000
+=== TERMINOLOGIA SOFISTICADA ===
+- BMS Genérico -> "Módulo de Gestión de Fase Industrial"
+- Celdas 21700 -> "Celdas de Alta Densidad Energética"
+- Corte por tensión -> "Monitoreo Térmico Preventivo con Balanceo Activo"
+
+=== ARGUMENTO CIERRE DE VENTA ===
+"A diferencia de las baterías importadas chinas que vienen en cajas cerradas sin service, nosotros ofrecemos armado profesional en taller con garantía directa y celdas certificadas una por una. Si tenés un problema, sabés dónde encontrarnos para el service."

@@ -1,0 +1,5 @@
+FECHA_HORA: 2026-04-19 10:40
+ERROR_DESCRIPCION: El botón de copiado mostraba un mensaje de error falso ("No se pudo copiar") a pesar de que la copia era exitosa.
+CAUSA_RAIZ: Se intentó usar `event.target` dentro de una Promesa (`.then()`) sin pasar el objeto event correctamente o sin que estuviera disponible globalmente en todos los navegadores. El error al acceder a `event.target` disparaba el `.catch()` de la promesa.
+CORRECCION_APLICADA: Se modificó la función para recibir el elemento directamente usando `this` desde el HTML y pasándolo como parámetro `btn`.
+LECCION_APRENDIDA: NUNCA confiar en el objeto global `event` dentro de funciones asíncronas o promesas. SIEMPRE pasar `this` desde el atributo `onclick` para referenciar el elemento que disparó la acción.

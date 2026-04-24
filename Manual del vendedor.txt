@@ -1,0 +1,268 @@
+Manual del vendedor de Lithium electrónica
+Capítulo 1: El Argumento Maestro
+Este capítulo sienta las bases de por qué el cliente debe dejar el pasado (plomo/reparaciones) y pasar al futuro con Lithium Electrónica.
+1.1. La Gran Comparación: Litio vs. Plomo (El factor peso)
+Basado en las pruebas reales de nuestro taller, la diferencia es abismal. Mientras que un sistema de plomo para 60V pesa 27,3 kg, nuestra batería de litio pesa solo 5,2 kg.
+* Argumento: Le sacamos 22 kg de peso muerto a tu vehículo. Eso se traduce en más aceleración, mejor frenado y menos desgaste de cubiertas y amortiguadores.
+1.2. El Argumento del "Tanque de Nafta"
+Es la forma más fácil de que el cliente entienda la inversión.
+* Argumento: "Invertir en esta batería de litio es como comprar hoy 1.000 tanques de nafta por adelantado a precio de hoy. En 6 meses, la batería se pagó sola con lo que ahorraste en combustible y service. El resto de los 4 años, viajás gratis."
+* Argumento de Vida Útil (El "Motor" Eléctrico): En un vehículo a explosión, sabés que tarde o temprano el motor se agota y hay que hacerlo a nuevo. En un vehículo eléctrico, la batería es el motor. Cuando la química se degrada, no sirve "limpiarla"; hay que renovar el corazón del vehículo para recuperar la potencia original.
+* Argumento de la Reparación vs. Batería Nueva (El "Parche"): Mucha gente ofrece cambiar solo "las celdas que están mal". Eso es como ponerle un parche a una rueda vieja: tarde o temprano va a fallar por otro lado. Esas reparaciones duran de 3 meses a un año y no suelen tener garantía. Nosotros no emparchamos: fabricamos una batería nueva con celdas hermanadas y te damos 1 año de garantía escrita.
+1.3. ¿Por qué Lithium Electrónica y no una barata de internet?
+Este es el argumento para el cliente que dice: "En internet vi una batería que dice tener la misma capacidad pero sale la mitad". El vendedor debe ser tajante:
+* El Engaño del Peso: "Muchos fabricantes chinos, para que la batería no parezca sospechosamente liviana, rellenan celdas vacías con arena o cemento. Vos pagás por 20Ah, pero recibís 5Ah reales y 2 kilos de arena. Tenemos videos propios de taller donde abrimos esas baterías y mostramos cómo las celdas están agujereadas y perdiendo tierra".
+* Celdas de Recuperación: "Esas baterías baratas usan celdas recicladas de laptops o autos chocados. Tienen diferentes niveles de desgaste, lo que hace que el pack se desbalancee rápido, se caliente y, en el peor de los casos, pueda entrar en ignición (prenderse fuego)".
+* El Riesgo de Incendio: "Una batería de litio es energía concentrada. Si usás materiales de mala calidad o celdas 'rellenas', estás poniendo una bomba de tiempo debajo de tu asiento. En Lithium Electrónica usamos celdas nuevas, con marca y número de lote rastreable".
+Capítulo 2: La Anatomía de una Batería "Lithium"
+El objetivo de este capítulo es que el vendedor pueda explicar qué hay dentro de la caja azul. No son solo pilas, es un sistema de gestión de energía de alta gama.
+2.1. El Corazón: Celdas 21700 vs. 18650
+Mientras que las baterías baratas o viejas usan celdas 18650, nosotros estandarizamos el uso de Celdas 21700 (como las EVE 21700/50E).
+* Argumento: "Usamos el formato 21700 porque es más moderno, tiene mayor densidad energética y se calienta mucho menos ante altas demandas. Es la misma tecnología que usan los autos eléctricos de última generación".
+2.2. El Cerebro: BMS Daly (Sistema de Gestión de Batería)
+No conectamos las celdas directo al motor. Usamos un BMS Daly (con opción de Bluetooth según el modelo).
+* Función: Controla que ninguna celda se sobrecargue ni se descargue de más. Protege contra cortocircuitos y sobrecalentamiento.
+* Argumento: "El BMS es el seguro de vida de tu inversión. Si algo falla en la moto, el BMS corta la energía para salvar la batería".
+2.3. La Unión: Soldadura por Punto por Capacitores
+Este es un diferencial técnico enorme que nos da la Glitter 801D.
+* El Problema: Soldar con estaño o con máquinas baratas de transformador calienta la celda y le quita años de vida antes de estrenarla.
+* Nuestra Solución: "Usamos tecnología de descarga por capacitores. Es un pulso de energía ultra rápido y potente que suelda el níquel sin calentar la química interna de la celda. Esto garantiza una unión eterna que no se suelta con los baches de la calle".
+2.4. Conducción de Alta Potencia: Cables AWG y Níquel Puro
+Miramos hasta el último detalle de los materiales:
+* Níquel Puro: Usamos tiras de Níquel Puro de 0.15mm o 0.20mm. Muchas baterías chinas usan acero niquelado que se oxida y se calienta. El nuestro garantiza máxima conductividad.
+* Cableado Siliconado AWG: Usamos calibres gruesos (10 AWG o 12 AWG) que soportan altas temperaturas y no ofrecen resistencia al paso de la corriente.
+2.5. El Control de Calidad: Testeo con HRM-10
+Cada batería que sale del taller de San Rafael pasa por una auditoría técnica.
+* Argumento: "Antes de cerrar el pack, medimos la resistencia interna de cada grupo con instrumental de precisión (Fnirsi HRM-10). Si un grupo no es perfecto, no sale al cliente. Entregamos un producto balanceado al milivoltio"
+3. El Costo del "Hardware" Externo (en baterías de bici)
+A diferencia de una batería de Citycoco o monopatín, que es básicamente un pack sellado en PVC dentro de un compartimento de metal de la moto, la batería de bici es el gabinete.
+La Carcasa: Una caja Hailong vacía cuesta hoy en Argentina entre $100.000 y $150.000.
+Componentes extra: Incluye la base de montaje (montante), cerradura con llave de seguridad, indicador de carga LED, puerto de carga dedicado y el interruptor de encendido. Todo eso suma al costo de materiales.
+2. Mayor Complejidad de Ensamble (Mano de Obra)
+No es lo mismo armar un PACK de celdas y envolverlo en PVC que meter las celdas dentro de una carcasa Hailong:
+Hay que usar holders (separadores plásticos) específicos para que las celdas no toquen las paredes.
+El cableado interno tiene que ser muy prolijo para no apretar cables al cerrar la caja.
+El BMS a veces tiene que ser de un formato específico (fino y largo) para que entre en el doble fondo del gabinete.
+3. Logística e Importación
+Los gabinetes son voluminosos. Traer una batería armada en su gabinete desde China es mucho más caro por m³ de flete que traer cajas de celdas sueltas. Además, el gabinete "vende" más visualmente, y los importadores le cargan un margen mayor por ser un producto "Premium" o "Plug & Play".
+📊 Comparativa de Precios (Abril 2026)
+Mirá la diferencia para una batería de 36V 10Ah:
+Pack Desnudo (Taller Lithium): $425.000 (Nuestro precio de lista).
+Batería de Monopatín (Genérica): $400.000 - $550.000 (Suele ser pack de PVC).
+Batería Hailong (Bici c/ Gabinete): $620.000 - $720.000 (Precios actuales en ML).
+“💡 El Secreto del Negocio para un vendedor de Lithium electrónica”
+Esta diferencia es nuestra oportunidad de oro. Cuando un cliente de bici viene con la batería muerta, le podemos ofrecer el "Trasplante de Celdas":
+Le cobramos $425.000 por el pack nuevo (usando sus mismos plásticos).
+Él se ahorra los $200.000 o $300.000 de diferencia que le costaría una batería nueva en Mercado Libre.
+Nosotros ganamos lo mismo de siempre, pero el cliente siente un ahorro gigante porque aprovecha su gabinete original que está sano.
+Capitulo 3: Presupuestos más pedidos
+LITHIUM ELECTRONICA - MENÚ DE OPCIONES 60V ALTO RENDIMIENTO ⚡🔋
+
+
+En este presupuesto te damos varias opciones de autonomía para el pack de 60V de tu vehículo. Teniendo en cuenta la potencia que manejan los motores de 60V, fabricamos nuestros packs de este voltaje de forma exclusiva con celdas de formato 21700 de grado industrial, que son más grandes, soportan mayor descarga que las estándar y no calientan.
+
+
+IMPORTANTE: Los presupuestos corresponden al pack de celdas sellado, termo-contraído y protegido, pero NO incluyen un gabinete plástico. El formato está pensado para ser instalado en el interior de tu caja original. Podés realizar el reemplazo vos mismo (soldando los conectores a los bornes), o bien, enviarnos tu caja vacía a nuestro taller en SAN RAFAEL, MENDOZA, y nosotros hacemos la instalación y el sellado por vos.
+
+
+🔹 OPCIONES DE AUTONOMÍA EXTREMA (Formato 21700):
+1. Pack 60V 10Ah (Para uso moderado): $715.000
+   (Peso: 2.4 kg aprox | Medidas: 160x150x75 mm)
+   
+2. Pack 60V 15Ah (Trayectos medios): $840.000
+   (Peso: 3.5 kg aprox | Medidas: 240x150x75 mm)
+   
+3. Pack 60V 20Ah (Larga distancia): $1.230.000
+   (Peso: 4.8 kg aprox | Medidas: 320x150x75 mm)
+   
+4. Pack 60V 25Ah (Máxima autonomía disponible): $1.490.000
+   (Peso: 6.0 kg aprox | Medidas: 400x150x75 mm)
+
+🔹 OPCIONES DE POTENCIA EXTREMA (Sistemas 72V):
+1. Pack 72V 15Ah (Trayectos medios): $1.250.000
+   (Peso: 5.2 kg aprox | Medidas: 320x150x75 mm)
+
+2. Pack 72V 20Ah (Larga distancia): $1.570.000
+   (Peso: 6.8 kg aprox | Medidas: 400x150x75 mm)
+
+3. Pack 72V 30Ah (Extreme Power): $2.350.000
+   (Peso: 9.5 kg aprox | Medidas: 450x150x75 mm)
+
+
+✅ Nuestra Diferencia Competitiva:
+- BMS de Alta Calidad: Todas las baterías llevan su Módulo de Gestión Industrial (BMS) con protección contra cortocircuitos, sensor de temperatura y corte automático para prevenir sobrecargas.
+- Celdas Certificadas: Trabajamos exclusivamente con material nuevo certificado.
+- Garantía de 1 Año: Respaldo directo de nuestra fábrica.
+Nota: este presupuesto vence en 90 días.
+
+
+¿Tenés a mano las dimensiones interiores de tu caja original para que confirmemos juntos cuál de estos packs entra perfectamente?.
+
+
+_________________________________________________________________________
+
+
+LITHIUM ELECTRONICA - PROPUESTA TÉCNICA SISTEMA 48V 🔋🔌
+48V (13S). Según el modelo, diseñamos dos opciones de pack de alta durabilidad para reemplazar tu batería actual:
+
+
+OPCIÓN 1: RENDIMIENTO STANDARD 
+48v 12.5Ah - $560.000
+Es el reemplazo ideal para recuperar la autonomía original. Pack equilibrado con celdas de alta descarga certificadas. Ideal para un uso urbano diario confiable.
+
+
+OPCIÓN 2: AUTONOMÍA ELITE 
+48v 20Ah - $1.050.000
+Diseñada para quienes necesitan el máximo de trayectoria por carga. Utilizamos tecnología de celdas 21700 de última generación (grado industrial), que ofrecen mayor fuerza de empuje y una vida útil superior. Incluye un Módulo de Gestión Daly Pro de 60A para mayor seguridad.
+
+OPCIÓN 3: EQUILIBRIO PRO
+48v 15Ah - $780.000
+Una opción ideal para quienes buscan más que lo estándar sin llegar al peso del pack de 20Ah. Fabricado con celdas 21700 para máxima durabilidad.
+
+
+IMPORTANTE: Los presupuestos corresponden al pack de celdas protegido y sellado (sin gabinete plástico). El pack se diseña para ser instalado dentro de tu caja original. Podés realizar la instalación vos mismo o enviarnos tu gabinete a nuestro taller en SAN RAFAEL, MENDOZA, para un trasplante técnico profesional.
+
+
+Diferencial Lithium Electronica:
+* Garantía Integral: 1 Año en nuestro taller.
+* Celdas Certificadas: Trabajamos únicamente con marcas de primer nivel (EVE/BAK).
+* Soporte Técnico: Como fabricantes, aseguramos servicios post-venta y asesoramiento constante.
+
+
+¿Cuál de estas dos opciones se adapta mejor al uso que le das a tu vehículo? Quedamos a tu disposición para cualquier duda.
+_________________________________________________________________________
+LITHIUM ELECTRONICA - MENÚ DE OPCIONES 36V SMART 🔋📲
+
+
+Estuvimos revisando tu consulta. Para sistemas de 36V, fabricamos packs de alta eficiencia. En baterías de alta performance utilizamos BMS con tecnología Smart Bluetooth integrada. Podrás monitorear el estado de tu batería (voltaje, carga y salud) en tiempo real desde una aplicación en tu celular.
+
+
+IMPORTANTE: Los presupuestos corresponden al pack de celdas protegido y sellado (sin gabinete plástico). El pack se diseña para ser instalado dentro de tu caja original. Podés realizar la instalación vos mismo o enviarnos tu gabinete a nuestro taller en SAN RAFAEL, MENDOZA, para un trasplante técnico profesional.
+
+
+🔹 GAMA DE ENTRADA (Mínimo peso y máximo ahorro - Celdas 18650):
+1. Pack 36V 5Ah (Ultra-Liviano): $310.000 
+   (Peso: 1.2 kg | Medidas: 150x70x45 mm)
+2. Pack 36V 7.5Ah (Equilibrado): $360.000 
+   (Peso: 1.6 kg | Medidas: 150x70x65 mm)
+
+
+🔹 GAMA ALTA PERFORMANCE (Potencia y Autonomía - Celdas 21700):
+3. Pack 36V 10Ah Elite (Compacto): $445.000 
+4. Pack 36V 15Ah Elite Pro (Larga Distancia): $555.000 
+
+
+✅ Nuestra Diferencia Competitiva:
+- BMS de la mejor calidad para extender la vida útil de su batería, con balanceo de celdas, con protecciones contra corto circuito, sobre consumo, y sobrecarga.
+- Celdas Certificadas (las mejores marcas del mercado EVE/BAK/DMEGC): Grado industrial, una sola marca por pack.
+- Garantía de 1 Año: Soporte directo en fábrica.
+_________________________________________________________________________
+LITHIUM ELECTRONICA - TABLA DE PRECIOS POR VOLTAJE
+
+📌 NIVEL 0: SISTEMAS 12V (UPS / Náutica / Emergencia)
+- 12V 20Ah Daily UPS: $275.000
+- 12V 30Ah Pro UPS: $345.000
+- 12V 50Ah Elite UPS: $455.000
+- 12V 80Ah Monster UPS: $685.000
+
+📌 NIVEL 1: SISTEMAS 24V (Sillas / Carritos)
+- 24V 20Ah Daily: $355.000
+- 24V 30Ah Pro: $455.000
+- 24V 40Ah Extreme: $555.000
+
+📌 NIVEL 2: SISTEMAS 36V (E-Bikes Urbanas)
+- 36V 5Ah Ultra-Liviana: $345.000
+- 36V 7.5Ah Equilibrada: $395.000
+- 36V 10Ah Elite: $445.000
+- 36V 15Ah Elite Pro: $545.000
+
+📌 NIVEL 3: SISTEMAS 48V (Scooters / Bicicletas Potentes)
+- 48V 12.5Ah Standard: $495.000
+- 48V 15Ah Equilibrada: $645.000
+- 48V 20Ah Elite: $795.000
+
+📌 NIVEL 4: SISTEMAS 60V (Alto Rendimiento)
+- 60V 10Ah Elite: $645.000
+- 60V 15Ah Pro: $795.000
+- 60V 20Ah Larga Distancia: $995.000
+
+📌 NIVEL 5: SISTEMAS 72V (Potencia Extrema)
+- 72V 20Ah High-Voltage: $1.190.000
+- 72V 25Ah Elite Extra: $1.390.000
+- 72V 30Ah Monster: $1.690.000
+
+
+IMPORTANTE: Los presupuestos corresponden al pack de celdas protegido y sellado (sin gabinete plástico). El pack se diseña para ser instalado dentro de tu caja original. Podés realizar la instalación vos mismo o enviarnos tu gabinete a nuestro taller en SAN RAFAEL, MENDOZA, para un trasplante técnico profesional.
+
+
+✅ Nuestras baterías incluyen:
+* Electrónica de protección Smart (BMS).
+* 1 Año de garantía en nuestro taller.
+* Asesoramiento de instalación.
+
+
+Capítulo 4: Manejo de Objeciones y Protocolo de Seña
+Este capítulo prepara al vendedor para las dudas más comunes y establece las reglas claras de Lithium Electrónica para cuidar los materiales y el tiempo de fabricación.
+4.1. El Protocolo de Seña (Protección de Insumos)
+En nuestro taller no "emparchamos" baterías usadas; fabricamos packs nuevos desde cero. Esto requiere una logística de materiales específica.
+* La Regla: Se solicita una seña del 10% para iniciar cualquier trabajo.
+* El Porqué (Argumento para el cliente): "Cada batería se diseña a medida. Las tiras de níquel que soldamos con nuestra tecnología de punto no se pueden reutilizar; una vez que se sueldan a la celda, el material queda comprometido para ese pack. La seña cubre los insumos iniciales y asegura tu lugar en la línea de montaje".
+* Beneficio: La seña congela el precio de los componentes y garantiza la fecha de entrega.
+4.2. Objeción: "¿Por qué tengo que enviar mi caja a San Rafael?"
+Muchos clientes tienen miedo de enviar su gabinete original por correo. El vendedor debe dar seguridad:
+* Argumento: "Para que la batería quede perfecta y no se mueva con las vibraciones, lo ideal es hacer el 'trasplante' en nuestro laboratorio. Tenemos las herramientas para sellar el gabinete y asegurar que las conexiones internas sean de grado industrial. Es la única forma de garantizar un acabado de fábrica".
+* Seguridad: "Recibimos equipos de todo el país. Una vez que llega, te notificamos y te enviamos fotos del proceso para que estés tranquilo".
+4.3. Objeción: "¿No es muy cara comparada con una reparación?"
+Aquí el vendedor debe ser firme con la diferencia entre "parche" y "corazón nuevo":
+* Argumento: "Una reparación suele durar entre 3 meses y un año porque las celdas viejas terminan arrastrando a las nuevas. Es tirar la plata. En Lithium Electrónica te damos una batería 100% nueva con 1 año de garantía escrita. Lo que parece más caro hoy, es lo más barato a largo plazo porque no vas a volver a gastar por 5 años".
+4.4. Objeción: "Me da miedo la seguridad de las baterías de litio"
+* Argumento: "Nuestras baterías son mucho más seguras que las importadas genéricas. Usamos BMS Daly (la marca líder) que tiene sensores de temperatura y corte automático por sobreconsumo. Además, soldamos con tecnología de punto frío (capacitores), evitando el estrés térmico en las celdas durante la fabricación".
+Capítulo 5: Manual de Cuidado y Garantía Escrita
+Este documento debe entregarse (o enviarse por PDF) con cada venta. Establece las reglas del juego para que la batería dure los 5 a 8 años para los que fue diseñada.
+5.1. Reglas de Oro para la Larga Vida (Cuidado del Usuario)
+1. El Cargador es Sagrado: Queda terminantemente prohibido usar cargadores de baterías de plomo/gel. El litio requiere una curva de carga específica (CC/CV). Usar un cargador incorrecto anula la garantía automáticamente.
+2. La Regla del 20%: Para maximizar la vida útil, recomendamos no agotar la batería por completo. Lo ideal es ponerla a cargar cuando llega al 20%. El litio "sufre" cuando llega a cero.
+3. Almacenamiento Prolongado: Si no vas a usar el vehículo por más de 15 días, no dejes la batería vacía ni al 100%. Lo ideal es dejarla al 60% de carga en un lugar fresco. Una batería guardada descargada puede "morir" y no volver a despertar.
+4. Evitar el Calor Extremo: No dejes el vehículo al sol directo en días de calor extremo (como las siestas de San Rafael) por tiempo prolongado. El calor es el único enemigo real del litio.
+5.2. Póliza de Garantía de Lithium Electrónica
+Cobertura: * Ofrecemos 1 año de garantía integral sobre defectos de fabricación en el pack de celdas y el funcionamiento del BMS.
+* La garantía cubre la mano de obra de reparación o el reemplazo de celdas defectuosas si fuera necesario.
+La Garantía queda anulada si:
+* Se detectan rastros de humedad o ingreso de agua dentro del pack (el sello de seguridad fue vulnerado).
+* Se evidencia el uso de un cargador no apto para litio.
+* El pack presenta golpes mecánicos por caídas o falta de sujeción en el vehículo.
+* Se realizaron modificaciones en el cableado o apertura del termocontraíble fuera de nuestro taller.
+Capítulo 6: El Filtro de Marcas Propietarias
+Existen marcas con "electrónica de comunicación" (BMS inteligente propietario) que dificultan o impiden el uso de repuestos genéricos. El vendedor debe filtrar estas consultas para evitar problemas en el taller.
+
+6.1. Lista Roja (Evitar o Consultar antes de presupuestar):
+* BOSCH (E-bikes): Sistema 100% blindado. Si el BMS detecta manipulación, se bloquea para siempre. No toma celdas nuevas ni BMS genéricos.
+* SHIMANO STEPS / SPECIALIZED / GIANT: Misma situación que Bosch. CanBus encriptado.
+* Síntoma: Si el display de la bici muestra "Error de comunicación", probablemente no tenga arreglo con nuestros componentes actuales.
+
+6.2. Lista Amarilla (Requieren placa específica):
+* XIAOMI / SEGWAY-NINEBOT: Se pueden reparar, pero NECESITAN su propio modelo de BMS "Smart Clone". No se les puede poner el BMS de 10S que usamos normalmente porque el scooter no arrancará (Error 21).
+
+REGLA DE ORO PARA EL VENDEDOR:
+Si la batería tiene más de 2 cables gruesos de salida (si ves cables finos de "datos"), es una batería con comunicación. SIEMPRE pedí foto de la etiqueta y decile al cliente: "Al ser un equipo de marca propietaria, necesitamos recibirlo para un Diagnóstico de Viabilidad antes de confirmar la reparación".
+
+5.3. El Mensaje de Cierre del Vendedor
+"Felicidades, te llevás una batería fabricada con precisión industrial en Mendoza. Si la cuidás siguiendo estos pasos, tenés autonomía garantizada por años. Ante cualquier duda, el soporte de Lithium Electrónica está a un WhatsApp de distancia."
+
+---
+
+### ⚓ CAPÍTULO 7: SISTEMAS INDUSTRIALES Y NÁUTICOS
+Para consumos extremos (motores >1500W o alternadores potentes), usamos **Sistemas en Paralelo LiFePO4**.
+- Ventaja: Capacidad de carga/descarga duplicada y vida útil de 10 años.
+- Incluimos kit de cables de potencia 0 AWG a medida.
+
+### ⛰️ CAPÍTULO 8: LA VENTAJA "SAN RAFAEL" (Objeción Distancia)
+Guion: "Estamos en Mendoza porque recibimos stock directo de importación. Esto nos permite el precio más bajo del país y garantía directa de fábrica. El envío es GRATIS y ASEGURADO."
+
+### 🏷️ CAPÍTULO 9: LÍNEA STANDARD (Económica)
+Para competir con precios bajos, ofrecemos la **Gama Standard (18650)**.
+- Ejemplo 36V 10Ah Standard: **$340.000**.
+- Ideal para quien busca precio pero con respaldo técnico profesional.
+
+---
+*(Fin del Manual del Vendedor)*
