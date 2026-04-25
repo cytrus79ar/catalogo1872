@@ -265,4 +265,25 @@ Para competir con precios bajos, ofrecemos la **Gama Standard (18650)**.
 - Ideal para quien busca precio pero con respaldo técnico profesional.
 
 ---
+
+### 🎙️ CAPÍTULO 10: EL PROTOCOLO DE AUDIO (Conversión del 80%)
+La voz humana transmite confianza técnica inmediata. Úsalo para cerrar ventas tras el presupuesto.
+1. **Validación:** "Hola [Nombre], estuve revisando los datos de tu motor de [Watts]..."
+2. **Explicación Técnica:** "Para ese uso te conviene el pack de 21700 porque tolera mejor los picos de consumo..."
+3. **Manejo de Distancia:** "Estamos en San Rafael, pero no te preocupes por el envío; viaja por OCA/Vía Cargo y llega directo a tu casa en 3 a 5 días".
+4. **Cierre:** "Si me das el OK hoy, ya te reservo el BMS para entrar en la línea de montaje del lunes".
+
+### 🌍 CAPÍTULO 11: ROMPIENDO LA BARRERA DE LA DISTANCIA
+Vender desde Mendoza a todo el país requiere pruebas visuales.
+- **Link del Panel:** Manda el link de la web para que el cliente vea que hay otros pedidos en proceso.
+- **Fotos de Guías:** Muestra guías de envío recientes (como la de Sergio Rana) para demostrar que los equipos llegan.
+- **Garantía Local:** "Si la batería falla, nosotros cubrimos el flete de retorno el primer mes".
+
+### 🎥 CAPÍTULO 12: CONTENIDO PARA EL TÉCNICO (Venta sin Cámara)
+No hace falta mostrar la cara para ser un experto.
+- **Videos POV:** Filma tus manos soldando o usando el multímetro.
+- **Pruebas de Carga:** Graba el monitor del tester mostrando la curva de descarga.
+- **Unboxing de Insumos:** Muestra las cajas de celdas EVE recién llegadas. Esto prueba que usas materiales nuevos.
+
+---
 *(Fin del Manual del Vendedor)*
