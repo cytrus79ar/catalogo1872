@@ -26,8 +26,9 @@
 * **WhatsApp:** +54 9 3525 64-9533
 * **Producto Solicitado:** Batería 24V 30Ah Lithium Pro (7S6P - Celdas 21700)
 * **Vehículo:** Jeep para niños (Uso Intensivo)
-* **Estado Actual:** 🟢 **PAGO COMPLETO / LISTO PARA ENVÍO** (Armado finalizado, esperando despacho Lunes 27/04).
-* **Fecha Límite:** 03 de Mayo de 2026 (Dentro de plazo).
+* **Estado Actual:** ✅ **ENVIADO (Jesús María, CBA)** (Despachado el 27/04 vía Vía Cargo).
+* **Guía:** 999034690038
+* **Fecha Límite:** FINALIZADO
 
 #### 💰 ESTADO FINANCIERO DEL PEDIDO:
 * **Precio de Venta (PVP):** $700.000
@@ -58,7 +59,7 @@
 ### PEDIDO EN CURSO: #004 - JOSE GARCIA ALONSO (LA RIOJA)
 * **Cliente:** Jose Garcia Alonso
 * **WhatsApp:** +54 9 3804 27-2148
-* **Producto Solicitado:** Diagnóstico y Reparación de Batería (Peso: 2.4 kg)
+* **Producto Solicitado:** Fabricación de Pack Nuevo (Sustitución de Batería de 2.4 kg)
 * **Estado Actual:** 📦 **EN TRÁNSITO** (Enviada por OCA el 23/04 - Guía: 142957058).
 * **Referencia Logística:** Costo de envío La Rioja -> Mendoza: $26.080 (OCA Estándar).
 
@@ -80,6 +81,20 @@
 * **Precio de Venta (PVP):** $360.000
 * **Seña Recibida:** **$0** (Pendiente de cobro para iniciar armado).
 * **Saldo Restante:** **$360.000**.
+
+---
+
+### PEDIDO EN CURSO: #007 - CLAUDIO MANTINI
+* **Cliente:** Claudio Mantini
+* **WhatsApp:** +54 9 3464 55-6889
+* **Producto Solicitado:** Pack Nuevo 36V 7.5Ah (Trasplante de celdas)
+* **Estado Actual:** 🛠️ **RECIBIDO / EN DIAGNÓSTICO** (Batería en taller, analizando puerto de datos).
+* **Referencia Técnica:** Conector tipo puerto COM (Posible comunicación CAN/UART).
+
+#### 💰 ESTADO FINANCIERO DEL PEDIDO:
+* **Precio de Venta (PVP):** $395.000 (Sujeto a validación técnica)
+* **Seña Recibida:** **$0**
+* **Saldo Restante:** **$395.000**
 
 ---
 *(Fin del registro de ventas activas)*

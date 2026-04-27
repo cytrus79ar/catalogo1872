@@ -230,6 +230,7 @@
         <button class="tab-button" onclick="openTab(event, 'inventario')">Inventario y Costos</button>
         <button class="tab-button" onclick="openTab(event, 'tecnica')">Guía Técnica</button>
         <button class="tab-button" onclick="openTab(event, 'ventas-manual')">Manual de Ventas</button>
+        <button class="tab-button" style="border-left: 2px solid #25D366;" onclick="openTab(event, 'whatsapp-leads')">📱 Leads WhatsApp</button>
     </div>
 
     <!-- Sección: Ventas y Pedidos -->
@@ -238,8 +239,8 @@
         <div class="summary-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
             <div class="summary-card" style="background:#e8fdf1; padding:15px; border-radius:8px; flex:1; border: 2px solid #28a745">
                 <h4 style="margin:0; color:#1e7e34">💰 Saldo en Billetera</h4>
-                <p style="font-size:1.8rem; margin:10px 0; font-weight:bold; color:#1e7e34">$943.000</p>
-                <small>Saldo Real Conciliado</small>
+                <p style="font-size:1.8rem; margin:10px 0; font-weight:bold; color:#1e7e34">$929.000</p>
+                <small>Saldo Real (Post-Envío Martin)</small>
             </div>
             <div class="summary-card" style="background:#e8f4fd; padding:15px; border-radius:8px; flex:1">
                 <h4 style="margin:0; color:#0056b3">📥 Ingresos (Abril)</h4>
@@ -255,14 +256,14 @@
 
         <h2>🛠️ Pedidos en Taller (Entrega 15 días)</h2>
         <div class="order-grid">
-            <div class="card">
-                <h3>📦 #002 - MARTIN SANTOS</h3>
-                <p><strong>Producto:</strong> 24V 30Ah Lithium Pro</p>
-                <p><strong>Estado:</strong> <span class="badge badge-success">PAGO COMPLETO / ENVÍO LUNES</span></p>
+            <div class="card" style="border-left: 5px solid #25D366;">
+                <h3>📦 #007 - CLAUDIO MANTINI</h3>
+                <p><strong>Producto:</strong> Pack Nuevo 36V 7.5Ah</p>
+                <p><strong>Estado:</strong> <span class="badge badge-info">RECIBIDO / EN DIAGNÓSTICO</span></p>
                 <div class="finanzas-card">
-                    💰 <strong>Entrega:</strong> $700.000 | ✅ <strong>SALDO CANCELADO</strong>
+                    💰 <strong>Entrega:</strong> $0 | 📥 <strong>Resta cobrar:</strong> $395.000
                 </div>
-                <p>⏳ Tiempo restante: <span class="timer" style="background:#28a745;">FINALIZADO (Listo para despacho)</span></p>
+                <p>⏳ Tiempo restante: <span class="timer" style="background:#444;">ESPERANDO PRESUPUESTO</span></p>
             </div>
 
             <div class="card">
@@ -305,6 +306,16 @@
                 <p><strong>Vencimiento Garantía:</strong> 25/04/2027</p>
                 <div class="finanzas-card">
                     💰 <strong>Total Neto Cobrado:</strong> $361.500 (Descontado envío)
+                </div>
+            </div>
+
+            <div class="card" style="border-left: 5px solid #007bff">
+                <h3>🚚 #002 - MARTIN SANTOS</h3>
+                <p><strong>Estado:</strong> <span class="badge badge-success">ENVIADO (Jesús María, CBA)</span></p>
+                <p><strong>Guía Vía Cargo:</strong> 999034690038</p>
+                <p><strong>Despacho:</strong> 27/04/2026</p>
+                <div class="finanzas-card">
+                    💰 <strong>Total Cobrado:</strong> $700.000 (Envío -$14.000)
                 </div>
             </div>
         </div>
@@ -606,6 +617,46 @@
             </ul>
         </div>
     </div>
+
+    <!-- Sección: WhatsApp Leads -->
+    <div id="whatsapp-leads" class="tab-content">
+        <h2>📱 Clasificador de Leads WhatsApp</h2>
+        <p>Subí el archivo <code>whatsapp_leads.json</code> generado con el script de extracción para priorizar tus ventas.</p>
+        
+        <div class="card" style="border: 2px dashed #25D366; text-align: center; padding: 30px;">
+            <input type="file" id="waFile" accept=".json" style="display: none;" onchange="handleFileUpload(event)">
+            <button class="copy-btn" style="background-color: #25D366;" onclick="document.getElementById('waFile').click()">📂 Cargar Reporte de WhatsApp</button>
+            <p id="fileStatus" style="margin-top: 10px; color: #666;">No hay archivo cargado</p>
+        </div>
+
+        <div id="leadsResults" style="display: none;">
+            <div class="summary-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+                <div class="summary-card" style="background:#e8fdf1; padding:15px; border-radius:8px; flex:1; border: 2px solid #25D366">
+                    <h4 style="margin:0; color:#128C7E">🔥 Ventas Calientes</h4>
+                    <p id="hotCount" style="font-size:1.8rem; margin:10px 0; font-weight:bold; color:#128C7E">0</p>
+                </div>
+                <div class="summary-card" style="background:#fff9e6; padding:15px; border-radius:8px; flex:1; border: 2px solid #ffc107">
+                    <h4 style="margin:0; color:#856404">⚡ Consultas Técnicas</h4>
+                    <p id="warmCount" style="font-size:1.8rem; margin:10px 0; font-weight:bold; color:#856404">0</p>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prioridad</th>
+                        <th>Contacto</th>
+                        <th>Último Mensaje</th>
+                        <th>Puntaje</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="leadsTableBody">
+                    <!-- Dinámico -->
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 
 <footer>
@@ -680,6 +731,82 @@
         document.getElementById(tabName).style.display = "block";
         document.getElementById(tabName).classList.add("active");
         evt.currentTarget.classList.add("active");
+    }
+
+    function handleFileUpload(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+
+        document.getElementById('fileStatus').innerText = "Procesando: " + file.name;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const data = JSON.parse(e.target.result);
+                processLeads(data);
+            } catch (err) {
+                alert("Error al leer el JSON: " + err.message);
+            }
+        };
+        reader.readAsText(file);
+    }
+
+    function processLeads(leads) {
+        const keywordsHot = ["precio", "cuanto", "sale", "presupuesto", "cotizacion", "comprar", "stock", "tenes", "pago", "envio", "costo"];
+        const keywordsProduct = ["bateria", "litio", "celda", "pack", "monopatin", "bici", "bicicleta", "ups", "silla", "pila"];
+        
+        let hot = 0;
+        let warm = 0;
+
+        const scoredLeads = leads.map(lead => {
+            const msg = (lead.lastMessage || "").toLowerCase();
+            let score = 0;
+            
+            keywordsHot.forEach(kw => { if (msg.includes(kw)) score += 3; });
+            keywordsProduct.forEach(kw => { if (msg.includes(kw)) score += 2; });
+            
+            const unread = parseInt(lead.unreadCount) || 0;
+            score += Math.min(unread, 5);
+
+            return { ...lead, score };
+        });
+
+        scoredLeads.sort((a, b) => b.score - a.score);
+
+        const tbody = document.getElementById('leadsTableBody');
+        tbody.innerHTML = "";
+
+        scoredLeads.forEach(lead => {
+            let badgeClass = "badge-info";
+            let priority = "Baja";
+            
+            if (lead.score >= 10) {
+                badgeClass = "badge-danger";
+                priority = "🔥 ALTA";
+                hot++;
+            } else if (lead.score >= 5) {
+                badgeClass = "badge-warning";
+                priority = "⚡ MEDIA";
+                warm++;
+            }
+
+            const row = `
+                <tr>
+                    <td><span class="badge ${badgeClass}">${priority}</span></td>
+                    <td><strong>${lead.contact}</strong></td>
+                    <td><small>${lead.lastMessage}</small></td>
+                    <td><span class="profit-data">${lead.score} pts</span></td>
+                    <td>
+                        <button class="copy-btn" onclick="window.open('https://web.whatsapp.com/')">Ir a WA</button>
+                    </td>
+                </tr>
+            `;
+            tbody.innerHTML += row;
+        });
+
+        document.getElementById('hotCount').innerText = hot;
+        document.getElementById('warmCount').innerText = warm;
+        document.getElementById('leadsResults').style.display = "block";
     }
 
     function updateCountdowns() {

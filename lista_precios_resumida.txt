@@ -7,6 +7,7 @@ LISTA DE PRECIOS MASTER - LITHIUM ELECTRONICA (Abril 2026)
 12V 80Ah Monster UPS 80Ah $685.000
 
 --- GAMA 24V ---
+24V 10.4Ah Daily (Réplica) 10.4Ah $295.000  <-- [NUEVO]
 24V 20Ah Lithium Daily 20Ah $355.000
 24V 30Ah Lithium Pro 30Ah $455.000
 24V 40Ah Lithium Extreme 40Ah $555.000
@@ -34,6 +35,14 @@ LISTA DE PRECIOS MASTER - LITHIUM ELECTRONICA (Abril 2026)
 72V 25Ah Elite Extra 25Ah $1.390.000
 72V 30Ah Extreme Power 30Ah $1.690.000
 
+--- GAMA ALTA POTENCIA / ESTACIONARIA ---
+Batería LiFePO4 24v 100Ah (Rack) $1.350.000
+
+-------------------------------------------------------------------------
+💡 ESTRATEGIA PARA REVENDEDORES (PRECIO GREMIO):
+- Descuento del 12% sobre PVP para compras de 2 o más unidades.
+- Descuento del 15% sobre PVP para compras de 4 o más unidades.
+- Soporte técnico directo y prioridad en el service.
 -------------------------------------------------------------------------
 Precios sujetos a cambio según costo de materiales.
 Garantía de 1 año. San Rafael, Mendoza.
