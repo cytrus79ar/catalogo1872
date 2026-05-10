@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gestión Total - Lithium Electrónica</title>
+    <style>
+        :root { --primary: #0056b3; --success: #28a745; --danger: #dc3545; --bg: #f8f9fa; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.5; }
+        .container { max-width: 1300px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--primary); padding-bottom: 15px; margin-bottom: 25px; }
+        .control-panel { background: #e9ecef; padding: 20px; border-radius: 10px; margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 25px; align-items: center; }
+        .control-group label { font-weight: bold; margin-right: 10px; }
+        .control-group input { padding: 8px; border: 2px solid var(--primary); border-radius: 6px; width: 140px; font-weight: bold; font-size: 1.1rem; }
+        .supplier-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .supplier-card { border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; background: #fff; }
+        .supplier-header { background: var(--primary); color: white; padding: 12px; font-weight: bold; text-transform: uppercase; text-align: center; }
+        .table-container { max-height: 500px; overflow-y: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; font-size: 0.95rem; }
+        th { background: #f1f3f5; color: #444; position: sticky; top: 0; }
+        .ars-price { font-weight: bold; color: var(--success); font-size: 1.1rem; }
+        .add-btn { background: var(--primary); color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        .add-btn:hover { background: #004494; }
+        .budget-section { margin-top: 40px; background: #343a40; color: #fff; padding: 25px; border-radius: 12px; }
+        .budget-list { max-height: 300px; overflow-y: auto; margin-bottom: 15px; }
+        .budget-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #495057; }
+        .grand-total { border-top: 2px solid #fbbf24; padding-top: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .grand-total-value { font-size: 2.2rem; font-weight: 900; color: #fbbf24; }
+        .clear-btn { background: var(--danger); color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📦 Gestión Integral de Pedidos</h1>
+            <p style="color: #666;">Lithium Electrónica - Control de Insumos</p>
+        </div>
+
+        <div class="control-panel">
+            <div class="control-group">
+                <label>Cotización USD (ARS):</label>
+                <input type="number" id="usdRate" value="1410" oninput="recalc()">
+            </div>
+            <div class="control-group">
+                <label>Buscador:</label>
+                <input type="text" id="searchBox" placeholder="Filtrar producto..." onkeyup="filterItems()">
+            </div>
+        </div>
+
+        <div class="supplier-grid">
+            <!-- BATTERY WORLD -->
+            <div class="supplier-card">
+                <div class="supplier-header">BATTERY WORLD (IVA INCLUÍDO)</div>
+                <div class="table-container">
+                    <table>
+                        <thead><tr><th>Producto</th><th>USD</th><th>ARS</th><th>Acción</th></tr></thead>
+                        <tbody id="bodyBW"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- PROBATTERY -->
+            <div class="supplier-card">
+                <div class="supplier-header">PROBATTERY / OTROS</div>
+                <div class="table-container">
+                    <table>
+                        <thead><tr><th>Producto</th><th>USD</th><th>ARS</th><th>Acción</th></tr></thead>
+                        <tbody id="bodyPB"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="budget-section">
+            <h3>📝 Resumen del Presupuesto</h3>
+            <div id="displayItems" class="budget-list"></div>
+            <div class="grand-total">
+                <button class="clear-btn" onclick="clearBudget()">Limpiar Todo</button>
+                <div>
+                    <span style="font-size: 1.2rem;">TOTAL ESTIMADO:</span>
+                    <span id="grandTotal" class="grand-total-value">$0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dbBW = [
+            { n: "Celda HS 18650 / 30PR", u: 4.345 },
+            { n: "Celda HS 21700 / 40PR", u: 5.929 },
+            { n: "Celda EVE 21700 / 40P", u: 6.292 },
+            { n: "Celda EVE 18650 / 30P", u: 4.84 },
+            { n: "Celda EVE 18650 / 29V", u: 3.63 },
+            { n: "Celda EVE 21700 / 50E (Blue)", u: 5.20 },
+            { n: "BMS JBD 14S 50A BT", u: 52.03 },
+            { n: "BMS Daly 7S-17S Pasivo BT", u: 65.34 },
+            { n: "BMS Daly 8S-17S Activo BT", u: 88.33 },
+            { n: "BMS Daly 20S 72V (Sin BT)", u: 54.45 },
+            { n: "BMS Daly 7S-24S Pasivo BT", u: 64.13 },
+            { n: "Controladora Jrack 20-26A", u: 84.68 },
+            { n: "Controladora Jrack 34-40A", u: 103.49 },
+            { n: "Batería LiFePO4 51.2V 100A Rack", u: 1331.00 },
+            { n: "Cable 10 AWG (Metro)", u: 7.26 },
+            { n: "Cable 12 AWG (Metro)", u: 4.84 },
+            { n: "Film PVC 290mm (Metro)", u: 6.776 },
+            { n: "Film PVC 200mm (Metro)", u: 3.025 },
+            { n: "Níquel Puro 0.15x8mm (m)", u: 1.694 },
+            { n: "Níquel Puro 2P 21700 (m)", u: 7.09 }
+        ];
+
+        const dbPB = [
+            { n: "Samsung 30Q (3000mAh)", u: 4.82 },
+            { n: "Samsung 25R (2500mAh)", u: 3.36 },
+            { n: "LG HG2 (3000mAh)", u: 4.15 },
+            { n: "Panasonic GA (3500mAh)", u: 5.10 },
+            { n: "Cargador 42V 2A", u: 29.00 },
+            { n: "Cargador 54.6V 2A", u: 45.00 },
+            { n: "Cargador 67.2V 2A", u: 55.00 },
+            { n: "Cargador 84V 2A", u: 75.00 },
+            { n: "Motor 350W 36V", u: 120.00 }
+        ];
+
+        let grandTotal = 0;
+
+        function recalc() {
+            const rate = parseFloat(document.getElementById('usdRate').value) || 1;
+            render('bodyBW', dbBW, rate);
+            render('bodyPB', dbPB, rate);
+        }
+
+        function render(id, data, rate) {
+            const body = document.getElementById(id);
+            body.innerHTML = '';
+            data.forEach((item, i) => {
+                const ars = (item.u * rate).toFixed(0);
+                body.innerHTML += `<tr class="item-row">
+                    <td>${item.n}</td>
+                    <td style="color:#666;">$${item.u.toFixed(2)}</td>
+                    <td class="ars-price">$${parseInt(ars).toLocaleString('es-AR')}</td>
+                    <td><button class="add-btn" onclick="add('${item.n}', ${ars})">Añadir</button></td>
+                </tr>`;
+            });
+        }
+
+        function add(name, price) {
+            grandTotal += price;
+            const div = document.createElement('div');
+            div.className = 'budget-item';
+            div.innerHTML = `<span>${name}</span> <span>$${price.toLocaleString('es-AR')}</span>`;
+            document.getElementById('displayItems').appendChild(div);
+            document.getElementById('grandTotal').innerText = `$${grandTotal.toLocaleString('es-AR')}`;
+        }
+
+        function clearBudget() {
+            grandTotal = 0;
+            document.getElementById('displayItems').innerHTML = '';
+            document.getElementById('grandTotal').innerText = '$0';
+        }
+
+        function filterItems() {
+            const filter = document.getElementById('searchBox').value.toUpperCase();
+            const rows = document.querySelectorAll('.item-row');
+            rows.forEach(row => {
+                const text = row.innerText.toUpperCase();
+                row.style.display = text.indexOf(filter) > -1 ? "" : "none";
+            });
+        }
+
+        recalc();
+    </script>
+</body>
+</html>

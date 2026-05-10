@@ -11,19 +11,19 @@
    - Vender la "Garantía Local" y el "Soporte de Taller" como el diferencial clave frente a ML.
    - Ofrecer siempre 3 opciones si el cliente no está decidido (Standard, Pro, Elite).
 
-=== COSTOS DE CELDAS (PROVEEDOR DIRECTO) ===
-- Celda 18650 (2500mAh): $3.600 ARS
-- Celda 21700 (5000mAh): $8.000 ARS
+=== COSTOS DE CELDAS (PROVEEDOR DIRECTO - MAYO 2026) ===
+- Celda 18650 (2500mAh): $5.227 ARS (Con IVA)
+- Celda 21700 (5000mAh): $9.060 ARS (Con IVA)
 
 === LOGISTICA MERCADO LIBRE (ABRIL 2026) ===
 - Comisión Publicación Premium: 20.74% (Incluye IVA sobre comisión)
 - Comisión Publicación Clásica: 16.94% (Incluye IVA sobre comisión)
 - Envío (Rango 3-5kg): $10.760 ARS (Promocionado)
 
-=== INSUMOS PROMEDIO ===
-- Pack Chico (24V/36V): $20.000 ARS
-- Pack Grande (60V/72V): $35.000 ARS
-- Pack Elite (Con caja reforzada): $60.000 ARS
+=== INSUMOS PROMEDIO (MAYO 2026) ===
+- Pack Chico (24V/36V): $25.000 ARS
+- Pack Grande (60V/72V): $45.000 ARS
+- Pack Elite (Con caja reforzada): $75.000 ARS
 
 === ESTRATEGIA DE PRECIOS ===
 - Gama Baja (24V, 36V): Margen neto fijo de $120.000 - $160.000.

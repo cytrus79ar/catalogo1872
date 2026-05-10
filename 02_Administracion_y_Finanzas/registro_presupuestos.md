@@ -41,11 +41,11 @@ Este archivo contiene la "memoria técnica y comercial" de la Secretaría IA de 
 
 ---
 
-### BASE DE COSTOS (Actualizada Abril 2026)
-- **Celda 18650:** $3.600
-- **Celda 21700:** $8.000
+### BASE DE COSTOS (Actualizada Mayo 2026)
+- **Celda 18650:** $5.227
+- **Celda 21700:** $9.060
 - **BMS 10S 100A (Ref):** $135.000
-- **Insumos:** $20.000 (Chico) / $35.000 (Grande)
+- **Insumos:** $25.000 (Chico) / $45.000 (Grande)
 - **Envío ML:** $11.000 apróx.
 
 ---
@@ -56,43 +56,43 @@ Este archivo contiene la "memoria técnica y comercial" de la Secretaría IA de 
 
 #### CATÁLOGO 12V (UPS / Náutica)
 - **Gama UPS (21700):**
-  - 12V 20Ah: $275.000
-  - 12V 30Ah: $345.000
-  - 12V 50Ah: $455.000
-  - 12V 80Ah: $685.000
+  - 12V 20Ah: $295.000
+  - 12V 30Ah: $375.000
+  - 12V 50Ah: $495.000
+  - 12V 80Ah: $745.000
 
 #### CATÁLOGO 24V (Movilidad)
-- **Gama Daily (21700):** 24V 20Ah: $355.000
+- **Gama Daily (21700):** 24V 20Ah: $385.000
 - **Gama Elite (21700):**
-  - 24V 30Ah: $455.000
-  - 24V 40Ah: $555.000
+  - 24V 30Ah: $495.000
+  - 24V 40Ah: $595.000
 
 #### CATÁLOGO 36V SMART
 - **Gama Entrada (18650):** 
-  - 36V 5Ah: $345.000 (1.2 kg)
-  - 36V 7.5Ah: $395.000 (1.6 kg)
+  - 36V 5Ah: $375.000 (1.2 kg)
+  - 36V 7.5Ah: $425.000 (1.6 kg)
 - **Gama Elite (21700):**
-  - 36V 10Ah: $445.000 (1.7 kg)
-  - 36V 15Ah: $545.000 (2.5 kg)
+  - 36V 10Ah: $495.000 (1.7 kg)
+  - 36V 15Ah: $595.000 (2.5 kg)
 
 #### CATÁLOGO 48V (Rendimiento)
-- **Gama Standard (18650):** 48V 12.5Ah: $495.000 (2.8 kg)
+- **Gama Standard (18650):** 48V 12.5Ah: $545.000 (2.8 kg)
 - **Gama Elite (21700):**
-  - 48V 15Ah: $645.000 (3.5 kg)
-  - 48V 20Ah: $795.000 (4.8 kg)
+  - 48V 15Ah: $695.000 (3.5 kg)
+  - 48V 20Ah: $895.000 (4.8 kg)
 
 #### CATÁLOGO 60V (Alto Rendimiento)
 - **Gama Elite (21700):**
-  - 60V 10Ah: $645.000 (2.4 kg)
-  - 60V 15Ah: $795.000 (3.5 kg)
-  - 60V 20Ah: $995.000 (4.8 kg)
-  - 60V 25Ah: $1.195.000 (6.0 kg)
+  - 60V 10Ah: $715.000 (2.4 kg)
+  - 60V 15Ah: $875.000 (3.5 kg)
+  - 60V 20Ah: $1.095.000 (4.8 kg)
+  - 60V 25Ah: $1.295.000 (6.0 kg)
 
 #### CATÁLOGO 72V (Rendimiento Extremo)
 - **Gama Elite (21700):**
-  - 72V 20Ah: $1.190.000 (6.2 kg)
-  - 72V 25Ah: $1.390.000 (7.5 kg)
-  - 72V 30Ah: $1.690.000 (9.0 kg)
+  - 72V 20Ah: $1.320.000 (6.2 kg)
+  - 72V 25Ah: $1.520.000 (7.5 kg)
+  - 72V 30Ah: $1.840.000 (9.0 kg)
 
 ---
 

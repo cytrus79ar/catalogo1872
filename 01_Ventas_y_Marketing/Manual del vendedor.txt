@@ -1,0 +1,51 @@
+=========================================================================
+      MANUAL DEL VENDEDOR - LITHIUM ELECTRÓNICA (EDICIÓN MAYO 2026)
+=========================================================================
+"No vendemos baterías, vendemos 8 años de tranquilidad."
+
+--- CAPÍTULO 1: LA FILOSOFÍA LITHIUM (EL ARGUMENTO GANADOR) ---
+
+Cuando un cliente dice "La de Gel es más barata", nuestra respuesta no es bajar el precio. Es educar. 
+
+EL EJEMPLO DEL FORD A vs. TESLA:
+La batería de Gel es tecnología de hace 100 años (como un Ford A). Funciona, pero es pesada, ineficiente y se muere rápido. 
+Nuestra batería de Litio es tecnología de punta (como un Tesla). Es 5 veces más liviana, entrega toda la potencia hasta el final y dura 8 veces más.
+
+¿POR QUÉ LITHIUM ES "MÁS BARATA" A LA LARGA?
+- 1 Batería Lithium (8 años de vida) = $485.000 (Costo total: $60.000/año)
+- 5 Baterías de Gel (1 año cada una) = $120.000 x 5 = $600.000 (Costo total: $120.000/año)
+>>> RESULTADO: El cliente ahorra $115.000 y se evita 5 viajes al taller.
+
+--- CAPÍTULO 2: TABLA DE PRECIOS BLINDADOS (MAYO 2026) ---
+
+GAMA 36V (Monopatines / Bicis):
+- 36V 10Ah Elite (EVE 21700): $485.000 [EL MÁS VENDIDO]
+- 36V 15Ah Pro (EVE 21700): $545.000
+
+GAMA 48V (Scooters / Alta Potencia):
+- 48V 12.5Ah Standard: $545.000
+- 48V 20Ah Autonomía Elite: $845.000
+
+GAMA 60V / 72V (Motos / Delivery):
+- 60V 20Ah Larga Distancia: $1.095.000
+- 72V 20Ah Extreme Power: $1.190.000
+
+--- CAPÍTULO 3: POLÍTICA PARA REVENDEDORES (GREMIO) ---
+
+Nuestras ganancias están BLINDADAS. No regalamos el trabajo.
+- Compra de 2 unidades: 12% de descuento sobre PVP.
+- Compra de 5 o más unidades: 17% de descuento sobre PVP.
+
+CONDICIÓN ÚNICA: La garantía de 1 año es nuestra, pero los fletes de envío a San Rafael para service corren por cuenta del revendedor/cliente.
+
+--- CAPÍTULO 4: FICHA TÉCNICA PARA CERRAR VENTAS ---
+
+¿Qué tiene adentro una Lithium Electrónica que no tiene la competencia?
+1. CELDAS EVE 21700 GRADO A: Son las mismas que usa Tesla. No usamos celdas de "recuperación" o basura china de Mercado Libre.
+2. BMS DALY SMART: Protege la batería de sobrecargas y cortocircuitos. Es el cerebro de la batería.
+3. SOLDADURA GLITTER 801D: Soldadura de precisión por pulso. Las vibraciones del monopatín no van a soltar los contactos jamás.
+4. PESO: Un pack de 48V de plomo pesa 28kg. El nuestro pesa 5kg.
+
+=========================================================================
+           LITHIUM ELECTRÓNICA - SOMOS FABRICANTES - MENDOZA
+=========================================================================

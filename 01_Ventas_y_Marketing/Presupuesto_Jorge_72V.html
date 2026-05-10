@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Presupuestos WhatsApp - Lithium Electrónica</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f0f2f5; padding: 20px; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .header { border-bottom: 2px solid #25d366; padding-bottom: 10px; margin-bottom: 20px; color: #128c7e; }
+        .card { background: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 5px solid #25d366; position: relative; }
+        pre { white-space: pre-wrap; font-family: inherit; font-size: 14px; margin: 0; }
+        .copy-btn { margin-top: 15px; width: 100%; background: #25d366; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .copy-btn:hover { background: #128c7e; }
+        .alert { background: #fff3cd; border: 1px solid #ffeeba; color: #856404; padding: 10px; border-radius: 6px; font-size: 13px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>🛒 Presupuesto para JORGE (72V)</h2>
+        </div>
+
+        <div class="alert">
+            ⚠️ <strong>Nota para Marcos:</strong> Vi que el cargador de la foto dice "Output 73V", lo cual corresponde a un sistema de <strong>60V</strong>. Sin embargo, en el chat mencionan <strong>72V</strong>. Le preparé el de 72V, pero habría que confirmar si usa 5 o 6 baterías de plomo.
+        </div>
+
+        <div class="card">
+            <pre id="budget72v">🚀 *LITHIUM ELECTRÓNICA - PROPUESTA TÉCNICA 72V*
+
+Hola Jorge! Un gusto saludarte. Basado en el sistema de 72V 28Ah que tenés actualmente (6 baterías de plomo), diseñamos un reemplazo en Litio de alta performance que va a transformar tu vehículo:
+
+🔋 **OPCIÓN 1: 72V 20Ah Larga Distancia**
+💰 **Inversión:** $1.190.000
+⚖️ **Peso:** 6.8 kg (Eliminás más de 40 kg de peso muerto).
+📏 **Medidas:** 400 x 150 x 75 mm.
+🛣️ **Autonomía:** 45-55 km reales.
+
+🔋 **OPCIÓN 2: 72V 30Ah Extreme Power**
+💰 **Inversión:** $1.690.000
+⚖️ **Peso:** 9.5 kg.
+📏 **Medidas:** 450 x 150 x 75 mm.
+🛣️ **Autonomía:** 70-85 km reales.
+
+✅ **¿Por qué pasar a Litio con nosotros?**
+- **Garantía Real:** 1 Año escrita en nuestro taller de San Rafael.
+- **Tecnología:** Usamos celdas EVE 21700 Grado A y BMS Daly Industrial.
+- **Vida Útil:** Diseñada para durar entre 5 y 8 años.
+
+⚠️ *Nota Técnica:* Al ser un sistema de 72V, recordá que se requiere un cargador específico de 84V para Litio (si no tenés, podemos cotizarlo aparte).
+
+¿Cuál de estas opciones se adapta mejor a tus recorridos diarios?</pre>
+        </div>
+
+        <button class="copy-btn" onclick="copyToClipboard('budget72v')">
+            <span>📋 COPIAR PARA WHATSAPP</span>
+        </button>
+
+        <p style="text-align: center; font-size: 12px; color: #888; margin-top: 20px;">Lithium Electrónica - San Rafael, Mendoza</p>
+    </div>
+
+    <script>
+        function copyToClipboard(id) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '✅ ¡COPIADO!';
+                btn.style.background = '#075e54';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.style.background = '#25d366';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

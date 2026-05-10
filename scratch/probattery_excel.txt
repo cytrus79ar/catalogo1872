@@ -1,0 +1,173 @@
+--- SHEET: Hoja1 ---
+                 Baterias & Cargadores - Electrolito Absorbido                                                                                                      Unnamed: 1 Unnamed: 2 Unnamed: 3
+0                                    Baterias Selladas de Moto                                                                                                             NaN        NaN        NaN
+1                                                     Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+2                                                 BMLA-12N5/3B                                               Bateria Sellada de Moto - 12v 5Ah (120 x 61 x 131mm) - Probattery      11.04        292
+3                                               BMLA-12N6.5/3B                                             Bateria Sellada de Moto - 12v 6.5Ah (139 x 66 x 102mm) - Probattery      12.54        NaN
+4                                                 BMLA-12N7/4A                                               Bateria Sellada de Moto - 12v 7Ah (136 x 76 x 120mm) - Probattery      13.73        NaN
+5                                                BMLA-YB14L/A2                                              Bateria Sellada de Moto - 12v 14Ah (134 x 89 x 166mm) - Probattery      31.54        221
+6                                                BMLA-YTX12/BS                                              Bateria Sellada de Moto - 12v 12Ah (150 x 86 x 132mm) - Probattery      23.72         96
+7                                                BMLA-YTX14/BS                                              Bateria Sellada de Moto - 12v 14Ah (150 x 86 x 147mm) - Probattery      31.42         79
+8                                               BMLA-YTX20L/BS                                              Bateria Sellada de Moto - 12v 20Ah (175 x 86 x 153mm) - Probattery       36.9         62
+9                                                BMLA-YTX7A/BS                                                Bateria Sellada de Moto - 12v 7Ah (150 x 87 x 95mm) - Probattery      14.01        496
+10                                               BMLA-YTX7L/BS                                                Bateria Sellada de Moto - 12v 7Ah (114 x 70 x133mm) - Probattery      13.73        699
+11                                               BMLA-YTX5L/BS                                                   Bateria Sellada de Moto - 12v 4Ah (113*70*109mm) - Probattery       11.1        298
+12                                               BMLA-YTX7B/BS                                                        Bateria Sellada de Moto - 12v 6.5Ah (150*65*95mm) - Pro1      17.81        852
+13                                              BMLA-12N9/4B-1                                               Bateria Sellada de Moto - 12v 9Ah (136 x 76 x 133mm) - Probattery      14.85        295
+14                                                BMLA-YTX9/BS                                               Bateria Sellada de Moto - 12v 9Ah (150 x 86 x 105mm) - Probattery      15.86        548
+15                                                BMLA-12N7/3A                                        Bateria Sellada de Moto - 12v 7Ah (150 x 60 x 130mm) - Probattery (-)(+)      13.24        NaN
+16                                                BMLA-12N7/4B                                       Bateria Sellada de Moto - 12v 7Ah (136 x 76 x 126mm) - Probattery (+) (-)      13.24        NaN
+17                                               BMLA-YTX4L/BS                                         Bateria Sellada de Moto - 12v 4Ah (114 x 71 x 85mm) - Probattery (-)(+)       8.77        163
+18                                                BMLA-12N9/3B                                        Bateria Sellada de Moto - 12v 7Ah (136 x 76 x 133mm) - Probattery (-)(+)      14.97        NaN
+19                                              BMLA-YTX30L-BS                                       Batería Sellada de Moto - 12v  30Ah (166 x 125 x 177) - Probattery (-)(+)      61.96         56
+20                                                BMLA-12N7/3B                                        Bateria Sellada de Moto - 12v 7Ah (150 x 60 x 130mm) - Probattery (-)(+)      13.24         90
+21                                             BMLA-12N7-3A/BS                                        Bateria Sellada de Moto - 12v 7Ah (137 x 76 x 123mm) - Probattery (-)(+)      13.24         81
+22                                                 KM12N6.5-3B                                                   Bateria Sellada de Moto - 12v 6.5Ah (139 x 66 x 102mm) - Pro1      11.59        379
+23                                                     KMYTX14                                                    Bateria Sellada de Moto - 12v 14Ah (150 x 86 x 147mm) - Pro1      27.85         73
+24                                                 KM-12-7L-BS                                                      Bateria Sellada de Moto - 12v 6Ah (114 x 70 x133mm) - Pro1       15.5         58
+25                                                 KM-YB14L-A2                                                    Bateria Sellada de Moto - 12v 14Ah (134 x 89 x 166mm) - Pro1      27.99        253
+26                                                   KMYT9B-BS                                                           Batería Sellada de Moto - 12v 8Ah (150x70x105) - Pro1      19.06         33
+27                                                  KMYT12B-BS                                                          Batería Sellada de Moto - 12v 10Ah (150x70x131) - Pro1       21.6         30
+28                         Baterias Electrolito Absorbido - 4v                                                                                                             NaN        NaN        NaN
+29                                                    Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+30                                                BSLA-409-CPB                                      Batería Electrolito Absorbido - 4v 0,9Ah - (30 x 20 x 65 mm ) - Probattery       1.32       1240
+31                                                BSLA-416-CPB                                                 Batería Electrolito Absorbido - 4v 1,6Ah - (34,5 x 22 x 91 mm )       1.68       1238
+32                                                BSLA-420-KND                                                       Batería Electrolito Absorbido - 4v 2Ah - (44 x 33 x 79mm)       2.59        947
+33                                                BSLA-430-KND                                                       Batería Electrolito Absorbido - 4v 3Ah - (60 x 26 x 75mm)       4.01        245
+34                                                BSLA-440-KND                                                      Batería Electrolito Absorbido - 4v 4Ah - (90 x 57 x 34mm)        4.37        559
+35                                                BSLA-460-KND                                                      Bateria Electrolito Absorsbido - 4v 6ah - (70 x 46 x 98mm)        8.3         36
+36                                                BSLA-430-CPB                                          Batería Electrolito Absorbido - 4v 3Ah - (60 x 26 x 75mm) - Probattery       4.01        593
+37                                                BSLA-440-CPB                                          Batería Electrolito Absorbido - 4v 4Ah - (90 x 57 x 34mm) - Probattery       4.37        NaN
+38                                                BSLA-460-CPB                                         Bateria Electrolito Absorsbido - 4v 6ah - (70 x 46 x 98mm) - Probattery       6.95        188
+39                         Baterias Electrolito Absorbido - 6v                                                                                                             NaN        NaN        NaN
+40                                                    Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+41                                                BSLA-613-CPB                                      Batería Electrolito Absorbido - 6v 1.3Ah - (97 x 25 x 57 mm ) - Probattery       3.99        261
+42                                                BSLA-628-CPB                                       Batería Electrolito Absorbido - 6v 2.8Ah - (66 x 33 x 97 mm) - Probattery       4.88        533
+43                                                BSLA-628-CRK                                          Batería Electrolito Absorbido - 6v 2.8Ah - (66 x 33 x 104 mm) - Rocket       4.44        384
+44                                                BSLA-633-CPB                                     Batería Electrolito Absorbido - 6v 3.3Ah - (134 x 34 x 66 mm ) - Probattery       5.73         88
+45                                                BSLA-640-CPB                                       Batería Electrolito Absorbido - 6v 4Ah - (70 x 47 x 107 mm ) - Probattery       4.82       1180
+46                                                BSLA-640-CRK                                           Batería Electrolito Absorbido - 6v 4Ah - (70 x 47 x 107 mm ) - Rocket        4.1       1365
+47                                                BSLA-645-CRK                                         Batería Electrolito Absorbido - 6v 4,5Ah - (70 x 47 x 107 mm ) - Rocket       4.55        NaN
+48                                                BSLA-670-CPB                                      Batería Electrolito Absorbido - 6v 7Ah - (151 x 34 x 100 mm ) - Probattery       7.23        384
+49                                               BSLA-6100-CPB                                     Batería Electrolito Absorbido - 6v 10Ah - (151 x 50 x 100 mm ) - Probattery       9.64        296
+50                                               BSLA-6120-CPB                                     Batería Electrolito Absorbido - 6v 12Ah - (151 x 50 x 100 mm ) - Probattery      12.18        NaN
+51                        Baterias Electrolito Absorbido - 12v                                                                                                             NaN        NaN        NaN
+52                                                    Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+53                                               BSLA-1213-CPB                                     Batería Electrolito Absorbido - 12v 1.3Ah - (97 x 43 x 59 mm ) - Probattery       7.45        555
+54                                               BSLA-1223-CPB                                    Batería Electrolito Absorbido - 12v 2.3Ah - (178 x 34 x 66 mm ) - Probattery      11.17         34
+55                                               BSLA-1233-CPB                                    Batería Electrolito Absorbido - 12v 3.3Ah - (134 x 67 x 66 mm ) - Probattery      11.24          2
+56                                               BSLA-1250-CPB                                      Batería Electrolito Absorbido - 12v 5Ah - (90 x 70 x 101 mm ) - Probattery        8.9        743
+57                                             BSLA-1250F2-CPB                                      Batería Electrolito Absorbido - 12v 5Ah - (90 x 70 x 101 mm ) - Probattery        8.9        156
+58                                               BSLA-1250-CRK                                          Batería Electrolito Absorbido - 12v 5Ah - (90 x 70 x 101 mm ) - Rocket       8.24        258
+59                                               BSLA-1270-CPB                        Batería Electrolito Absorbido - 12v 7Ah - (151 x 65 x 94 mm ) - Terminal F1 - Probattery      10.21        616
+60                                             BSLA-1270F2-CPB                        Batería Electrolito Absorbido - 12v 7Ah - (151 x 65 x 94 mm ) - Terminal F2 - Probattery       10.1        393
+61                                               BSLA-1270-CRK             Batería Electrolito Absorbido - 12v 7Ah - (151 x 65 x 99 mm ) - Rocket - Ideal Alarmas y otros usos       8.46        797
+62                                               BSLA-1275-CPB                                    Batería Electrolito Absorbido - 12v 7.5Ah - (151 x 65 x 94 mm ) - Probattery      11.61        NaN
+63                                               BSLA-1275-CRK                                        Batería Electrolito Absorbido - 12v 7.5Ah - (151 x 65 x 94 mm ) - Rocket       14.3        NaN
+64                                               BSLA-1290-CPB                                      Batería Electrolito Absorbido - 12v 9Ah - (151 x 65 x 94 mm ) - Probattery      13.73        NaN
+65                                               BSLA-1290-CRK                                          Batería Electrolito Absorbido - 12v 9Ah - (151 x 65 x 94 mm ) - Rocket      16.99        NaN
+66                                              BSLA-12120-CPB                                    Batería Electrolito Absorbido - 12v 12Ah - (151 x 99 x 100 mm ) - Probattery      21.42        319
+67                                              BSLA-12120-CRK                                        Batería Electrolito Absorbido - 12v 12Ah - (151 x 99 x 100 mm ) - Rocket      20.38        NaN
+68                                              BSLA-12180-CPB                                    Batería Electrolito Absorbido - 12v 18Ah - (181 x 76 x 167 mm ) - Probattery      28.47          1
+69                                              BSLA-12180-CRK                                        Batería Electrolito Absorbido - 12v 18Ah - (181 x 76 x 167 mm ) - Rocket      28.86        NaN
+70                                              BSLA-12260-CPB                                   Batería Electrolito Absorbido - 12v 26Ah - (166 x 172 x 125 mm ) - Probattery      45.78         42
+71                                              BSLA-12260-CRK                                       Batería Electrolito Absorbido - 12v 26Ah - (166 x 172 x 125 mm ) - Rocket      44.89        NaN
+72                                              BSLA-12330-CPB                                    Batería Electrolito Absorbido - 12v 33Ah - (170 x 216 x 130 mm) - Probattery      59.13         52
+73                                              BSLA-12400-CPB                                    Batería Electrolito Absorbido - 12v 40Ah - (171 x 198 x 166 mm) - Probattery      72.27         72
+74                                              BSLA-12550-CPB                                   Batería Electrolito Absorbido - 12v 55Ah - (229 x 138 x 205 mm ) - Probattery     101.85         44
+75                                             BSLA-12750A-CPB                                   Batería Electrolito Absorbido - 12v 75Ah - (260 x 168 x 214 mm ) - Probattery     122.85        NaN
+76                                              BSLA-12750-CRK                                       Batería Electrolito Absorbido - 12v 75Ah - (260 x 168 x 214 mm ) - Rocket     162.47          3
+77                                              BSLA-12800-CRK                                       Batería Electrolito Absorbido - 12v 80Ah - (260 x 168 x 214 mm ) - Rocket     125.01          8
+78                                            BSLA-121000A-CPB              Batería Electrolito Absorbido - 12v 100Ah - Formato Americano - (330 x 172 x 215 mm ) - Probattery     162.06         39
+79                                             BSLA-121000-CRK                  Batería Electrolito Absorbido - 12v 100Ah - Formato Americano - (330 x 172 x 215 mm ) - Rocket     164.28          9
+80                                             BSLA-121500-CPB                                  Batería Electrolito Absorbido - 12v 150Ah - (495 x 205 x 242 mm ) - Probattery     236.33         47
+81                                             BSLA-122000-CPB                                  Batería Electrolito Absorbido - 12v 200Ah - (497 x 258 x 242 mm ) - Probattery     280.32         38
+82                                             BSLA-122500-CRK                                           Batería Electrolito Absorbido - 12v 250Ah - (497 x 258 x 242 mm ) -Ro     397.16          2
+83              Bateria ALTA DESCARGA - Ideal UPS - Probattery                                                                                                             NaN        NaN        NaN
+84                                                    Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+85                                              BHLA-1254X-CPB                          Batería Sellada Alta Descarga - 12v 5,4Ah - (90 x 70 x 101 mm ) Ideal UPS - Probattery      10.73        268
+86                                              BHLA-1234W-CPB                           Batería Sellada Alta Descarga - 12v 9Ah - (151 x 65 x 94 mm  ) Ideal UPS - Probattery      13.56        NaN
+87                                              BHLA-1236W-CPB                           Batería Sellada Alta Descarga - 12v 9Ah - (151 x 65 x 94 mm  ) Ideal UPS - Probattery      14.49        NaN
+88                   Baterias de Ciclado Profundo - Probattery                                                                                                             NaN        NaN        NaN
+89                                                    Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+90                                             BVLA-12130E-CPB                           Batería Ciclado Profundo - 12v 13Ah - (151 x 98 x 95 mm) - Conector T2 - Peso 4,05 Kg      28.35        NaN
+91                                             BVLA-12220E-CPB                      Batería Ciclado Profundo - 12v 22Ah - (181.5 x 77 x 167,5 mm) - Conector T3 - Peso 6,30 Kg      40.32        NaN
+92                                             BVLA-12260E-CRK                                             Batería Ciclado Profundo - 12v 26Ah - (125 x 166 x 175 mm) - Rocket      67.53        NaN
+93                                             BVLA-12280E-CPB                         Batería Ciclado Profundo - 12v 28Ah - (166 x 175 x 125 mm) - Conector T3 - Peso 9,35 Kg      56.28        121
+94                                             BVLA-12340E-CPB                        Batería Ciclado Profundo - 12v 34Ah - (195 x 130 x 164 mm) - Conector T5 - Peso 11,65 Kg      63.51        232
+95                                             BVLA-12550E-CPB                        Batería Ciclado Profundo - 12v 55Ah - (228 x 137 x 210 mm) - Conector T9 - Peso 17,70 Kg     102.06         83
+96                                             BVLA-12750E-CPB                                                                          Batería Ciclado Profundo - 12v 75Ah -      142.35        NaN
+97                                            BVLA-121100E-CPB                      Batería Ciclado Profundo - 12v 110Ah - (330 x 173 x 212 mm) - Conector T11 - Peso 30,60 Kg     183.96         26
+98                                            BVLA-121500E-CPB                    Batería Ciclado Profundo - 12v 150Ah - (483 x 170 x 238,5 mm) - Conector T11 - Peso 43,20 Kg     254.61         67
+99                                            BVLA-122000E-CPB                      Batería Ciclado Profundo - 12v 200Ah - (522 x 240 x 218 mm) - Conector T11 - Peso 62,20 Kg     321.72         12
+100          Baterías Electrolito Absorbido - FRONTAL TERMINAL                                                                                                             NaN        NaN        NaN
+101                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+102                                             BSLA-121000AFT                         Batería Electrolito Absorbido 12v 100Ah - Frontal Terminal (410x109x285mm) - Probattery        168         25
+103                                             BSLA-121500AFT                         Batería Electrolito Absorbido 12v 150Ah - Frontal Terminal (565x110x288mm) - Probattery     281.07         54
+104                                             BSLA-122000AFT                        Batería Electrolito Absorbido 12v 200Ah - Frontal Terminal (560x1250x316mm) - Probattery     293.94         11
+105           Estación Portatil de Energía - Paneles plegables                                                                                                             NaN        NaN        NaN
+106                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+107                                             FPPS-5KW-AC270                                                                                          Portable Power Station     2427.3          4
+108                                            FPPS-LPD-200-LP                                                                        PANEL SOLAR PLEGABLE 200W MONOCRISTALINO     221.65        NaN
+109                                            FPPS-LPD-400-LP                                                                        PANEL SOLAR PLEGABLE 400W MONOCRISTALINO     423.15          4
+110                                              FPPS-LPD60-LP                                                                         PANEL SOLAR PLEGABLE 60W MONOCRISTALINO       80.6        NaN
+111                                            FPPS-M1200LS-LP                                                                       Portable Power Station 1200W - PICO 2400W     856.38        NaN
+112                                           FPPS-M2200BAT-LP                                                                                          Portable Power Station    1173.54          4
+113                                            FPPS-M2200LS-LP                                                                                          Portable Power Station    1873.95          5
+114                                           FPPS-M3000BAT-LP                                                                                          Portable Power Station     1760.3        NaN
+115                                             FPPS-M3000S-LP                                                                                          Portable Power Station     2780.7          2
+116                                               FPPS-M306-LP                                                                         Portable Power Station 300W - PICO 600W     302.25         13
+117                                            FPPS-PH15000-LP                                                                                          Portable Power Station     3828.5          5
+118  Baterias y Monoblock de Litio Hierro - Vehiculo Electrico                                                                                                             NaN        NaN        NaN
+119                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+120                                           BLFE-121000LI-CP  Monoblock de Litio Hierro (LiFePO4) - para vehiculo electrico - 12v 100Ah (330x173x216mm) - 10.5Kg- Probattery      481.8        NaN
+121                                           BLFE-12500LI-CPB    Monoblock de Litio Hierro (LiFePO4) - para vehiculo electrico - 12v 50Ah (230x127x191mm) - 5.5Kg- Probattery      459.9          1
+122                                           BLFE-12750LI-CPB    Monoblock de Litio Hierro (LiFePO4) - para vehiculo electrico - 12v 75Ah (256x165x210mm) - 8.1Kg- Probattery      306.6          4
+123                                           BLFE-481000LI-CP            Bateria de Litio Hierro (LiFePO4) - para vehiculo electrico - 48v 100Ah (482x400x177mm) - Probattery    1673.16        NaN
+124                                               BLFE-12.8/20                            Bateria de Litio Hierro (LiFePO4) - 12,8v - 20Ah (181x77x167mm) - 2.9Kg-  y Cargador     231.75          3
+125                                               BLFE-12.8/22                            Bateria de Litio Hierro (LiFePO4) - 12,8v - 22Ah (181x77x167mm) - 3.8Kg-  y Cargador      247.5          5
+126                                              BLFE-12,8/100                                                                                            Bateria Litio Hierro     289.58          2
+127                                            BLFE-12,8/100G2                                                                                            Bateria Litio Hierro     289.58        NaN
+128                                              BLFE-12,8/200                                                                                            Bateria Litio Hierro     553.41         30
+129                                              BLFE-25,6/100                                                                                Bateria Litio Hierro 25,6v 100Ah     476.19         14
+130                                              BLFE-25,6/200                                                                                Bateria Litio Hierro 25,6v 200Ah     956.67         12
+131                                              BLFE-51,2/100                                                                             Rack System Litio Hierro 51,2v100Ah     1030.5         19
+132                                             BLFE-51,2/100R                                                                             Rack System Litio Hierro 51,2v100AH     1030.5          6
+133                                               BLFE-51,2/50                                                                             Rack System Litio Hierro 51,2v 50Ah     794.25         11
+134          Cargadores Para Baterias de Electrolito Absorbido                                                                                                             NaN        NaN        NaN
+135                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+136                                           FEPM-0138/120B-A                                                                             Cargador de Plomo - 13,8v 12Ah 166W      84.09         35
+137                                           FEPM-0276/060B-A                                                                              Cargador de Plomo - 27,6v 6Ah 166W      62.25         22
+138                                           FEPM-0276/150B-A                                                                             Cargador de Plomo - 27,6v 15Ah 415W     164.66          1
+139                                           FEPP-0138/010B-A                                                                                   Cargador de Plomo - 13,8.v 1A      16.99        238
+140                                           FEPP-0138/018B-A                                                                             Cargador de Plomo - 13,8v 1.8Ah 25W      26.38        301
+141                                           FEPP-0138/033I-A                                                                             Cargador de Plomo - 13,8v 3.3Ah 46W      29.55        281
+142                                           FEPP-0138/050I-A                                                                               Cargador de Plomo - 13,8v 5Ah 70W      35.56         12
+143                                           FEPP-0276/028I-A                                                                             Cargador de Plomo - 27,6v 2,8Ah 78W      94.12         41
+144                                           FEPP-0414/018I-A                                                                               Cargador Probattery 41.4V 1.8A DC      31.39          9
+145                                           FEPP-0552/015I-A                                                                              Cargador Probattery 55.2V 1.5A DC       31.39          8
+146                                           FSLA-0621000-CPB                                       Cargador Baterias de Plomo - Salida 6,9v 1Ah - (Baterias 6v) - Probattery      10.04        NaN
+147                                           FSLA-0623000-CPB                                       Cargador Baterias de Plomo - Salida 6,9v 3Ah - (Baterias 6v) - Probattery       27.9         55
+148                                           FSLA-1381000-CPB                                     Cargador Baterias de Plomo - Salida 13,8v 1Ah - (Baterias 12v) - Probattery      12.35        NaN
+149                                           FSLA-1383000-CPB                                     Cargador Baterias de Plomo - Salida 13,8v 3Ah - (Baterias 12v) - Probattery      23.12        NaN
+150                                           FSLA-276600M-CPB                                     Cargador Baterias de Plomo - Salida 27,6v 6Ah - (Baterias 24v) - Probattery      75.33        NaN
+151                                           FSLA-552350M-CPB                                   Cargador Baterias de Plomo - Salida 55,2v 3,5Ah - (Baterias 48v) - Probattery       83.7         48
+152                                           FSLA-SEL3000-CPB                                                                        Cargador Bateria de Plomo - 6v y 12v 3Ah      25.11        NaN
+153                                           FSLA-0603000-CPB                                       Cargador Baterias de Plomo - Salida 6,9v 3Ah - (Baterias 6v) - Probattery      20.97        NaN
+154                  Inversores 12V 24V 48V a 220v - Onda Pura                                                                                                             NaN        NaN        NaN
+155                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+156                                            FIOP-300/12V-LI                                                                         Inversor Onda Pura - 12v a 220v - 300VA      57.41        NaN
+157                                            FIOP-500/12V-LI                                                                         Inversor Onda Pura - 12v a 220v - 500VA      64.63        317
+158                                           FIOP-1000/12V-LI                                                                        Inversor Onda Pura - 12v a 220v - 1000VA     109.67        117
+159                                           FIOP-1500/12V-LI                                                                        Inversor Onda Pura - 12v a 220v - 1500VA     125.14        294
+160                                           FIOP-2000/12V-LI                                                                        Inversor Onda Pura - 12v a 220v - 2000VA     141.98        247
+161                                           FIOP-3000/12V-LI                                                                        Inversor Onda Pura - 12v a 220v - 3000VA     277.38         17
+162                                           FIOP-1000/24V-LI                                                                        Inversor 24v a 220v - Onda Pura - 1000VA     138.58        NaN
+163                                           FIOP-5000/48V-LI                                                                        Inversor Onda Pura - 48v a 220v - 5000VA     426.85        NaN
+164                                   Reguladores 12V 24V 48V                                                                                                              NaN        NaN        NaN
+165                                                   Articulo                                                                                             Nombre del artículo  Usd S/IVA      stock
+166                                                FIRS-PWM30A                                                          Regulador Solar Automatico MPPT - 30A (75v) - 12v/24v       63.61         60
+167                                             FIRS-PWM40A-48                                                       Regulador Solar Automatico MPPT - 40A (150v)- 12v/24v/48v     100.89         30
+168                                                FIRS-PWM60A                                                           Regulador Solar Automatico MPPT - 60A (100v)- 12v/24v     118.45         30
+169                                             FIRS-PWM60A-48                                                       Regulador Solar Automatico MPPT - 60A(150v) - 12v/24v/48v     131.62          5
+
