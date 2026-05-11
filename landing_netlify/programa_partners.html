@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Partners Estratégicos | Manual de Ventas Lithium</title>
+    <meta name="description" content="Manual de ventas y Programa de Partners. Calcula tus ganancias y aprende a vender baterías de litio premium.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #050505;
+            --bg-card: #111111;
+            --bg-card-hover: #1a1a1a;
+            --text-main: #f0f0f0;
+            --text-muted: #a0a0a0;
+            --accent-green: #00ff88;
+            --accent-blue: #0088ff;
+            --accent-gold: #ffd700;
+            --gradient-primary: linear-gradient(135deg, var(--accent-green) 0%, var(--accent-blue) 100%);
+            --gradient-gold: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+            --border-subtle: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+        
+        .text-gradient { background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block; }
+        .text-gold { background: var(--gradient-gold); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+
+        /* Hero */
+        .hero { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; padding: 6rem 0; border-bottom: var(--border-subtle); }
+        .hero::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60vw; height: 60vw; background: radial-gradient(circle, rgba(0,255,136,0.05) 0%, rgba(0,0,0,0) 70%); z-index: -1; }
+        .hero h1 { font-size: clamp(2.5rem, 4vw, 4rem); font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; }
+        .hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 2rem; }
+
+        .highlight-box { background: rgba(0, 255, 136, 0.05); border-left: 4px solid var(--accent-green); padding: 1.5rem; margin: 2rem auto; max-width: 800px; border-radius: 0 8px 8px 0; font-size: 1.1rem; }
+        .info-box { background: rgba(0, 136, 255, 0.05); border-left: 4px solid var(--accent-blue); padding: 1.5rem; margin-bottom: 2rem; border-radius: 0 8px 8px 0; }
+
+        /* Advanced Calculator */
+        .calc-container { background: var(--bg-card); border: var(--border-subtle); border-radius: 20px; padding: 2.5rem; margin: 2rem auto; box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .calc-form-row { display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 1rem; align-items: end; margin-bottom: 2rem; }
+        
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-muted); font-size: 0.9rem;}
+        .form-group input, .form-group select { width: 100%; padding: 0.8rem; background: var(--bg-dark); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px; font-family: 'Outfit', sans-serif; transition: border 0.3s ease; }
+        .form-group input:focus, .form-group select:focus { outline: none; border-color: var(--accent-green); }
+        
+        .btn-add { background: var(--gradient-primary); color: #000; border: none; padding: 0.8rem 1.5rem; font-weight: bold; border-radius: 8px; cursor: pointer; height: 46px; transition: opacity 0.3s; }
+        .btn-add:hover { opacity: 0.9; }
+        .btn-remove { background: #ff5252; color: #fff; border: none; padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer; font-weight: bold; }
+
+        .calc-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.9rem; }
+        .calc-table th { text-align: left; padding: 1rem; color: var(--text-muted); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .calc-table td { padding: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+
+        .results-box { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; background: linear-gradient(135deg, rgba(0,255,136,0.1), rgba(0,136,255,0.1)); border: 1px solid rgba(0,255,136,0.2); border-radius: 12px; padding: 2rem; text-align: center; }
+        .result-item { display: flex; flex-direction: column; justify-content: center; }
+        .result-label { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; }
+        .result-value { font-size: 2rem; font-weight: 800; color: white; }
+        .result-value.profit { background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem; }
+        .tier-indicator { font-size: 1.2rem; font-weight: bold; padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-top: 0.5rem; }
+
+        /* Grid */
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        
+        /* Training Manual */
+        .card { background: var(--bg-card); border: var(--border-subtle); border-radius: 16px; padding: 2rem; }
+        .card h3 { color: var(--accent-green); margin-bottom: 1rem; font-size: 1.3rem; display: flex; align-items: center; gap: 10px; }
+        .card p, .card li { color: var(--text-muted); margin-bottom: 0.8rem; }
+        .card ul { padding-left: 1.5rem; }
+
+        .objection { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; border-left: 3px solid var(--accent-blue); }
+        .objection h4 { margin-bottom: 0.5rem; color: #fff; }
+        .objection p { margin-bottom: 0; font-style: italic; }
+
+        section { padding: 5rem 0; border-bottom: var(--border-subtle); }
+        .section-header { text-align: center; margin-bottom: 3rem; }
+        .section-header h2 { font-size: 2.5rem; }
+
+        /* Badges & Tiers */
+        .tier-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 0.8rem; margin-bottom: 1rem; }
+        .tier-silver { background: #e0e0e0; color: #000; }
+        .tier-gold { background: var(--accent-blue); color: #fff; }
+
+        @media (max-width: 768px) {
+            .calc-form-row { grid-template-columns: 1fr; }
+            .calc-table { display: block; overflow-x: auto; white-space: nowrap; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <span style="text-transform: uppercase; letter-spacing: 2px; color: var(--accent-green); font-weight: 600; margin-bottom: 1rem; display: block;">Lithium Electrónica B2B</span>
+            <h1>Manual del Partner y<br>Programa de Socios</h1>
+            
+            <div class="highlight-box">
+                <strong>¿Cómo funciona nuestro negocio?</strong> Es muy simple:<br>
+                Aquí NO cobramos franquicia, NO hay mensualidades, y NO requieres inversión inicial obligatoria.<br>
+                <strong>Solo traes tus clientes y te llevas tus ganancias.</strong> Nosotros fabricamos, respaldamos y garantizamos.
+            </div>
+            
+            <p>Conviértete en Partner Estratégico, accede a tecnología de punta, márgenes excepcionales y obtén tu <strong>Landing Page Gratuita</strong> para captar clientes en tu ciudad.</p>
+        </div>
+    </section>
+
+    <!-- CALCULADORA INTERACTIVA MULTI-ITEM -->
+    <section id="calculadora" style="background: rgba(0,0,0,0.5);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simulador de <span class="text-gradient">Presupuestos B2B</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Arma presupuestos complejos combinando distintas baterías. El simulador calculará automáticamente tu nivel de Partner basado en la cantidad total de baterías en tu carrito.</p>
+            </div>
+
+            <div class="info-box">
+                <h4 style="color: var(--accent-blue); margin-bottom: 0.5rem;">📖 ¿Cómo usar el Simulador?</h4>
+                <p style="margin-bottom: 0.5rem;"><strong>1. Entendiendo el PVP:</strong> PVP significa "Precio de Venta al Público". Es el precio de lista de fábrica sobre el cual se aplican tus descuentos como Partner.</p>
+                <p style="margin-bottom: 0.5rem;"><strong>2. Agrega baterías al carrito:</strong> Selecciona un modelo del catálogo, indica cuántas unidades te pidió tu cliente y a qué precio final se las vas a cobrar.</p>
+                <p><strong>3. Magia Automática:</strong> Al superar las 2 unidades (12%) o las 5 unidades (17%), tu descuento se aplicará a TODO el presupuesto automáticamente, sin importar si mezclaste baterías de 36V, 48V o 60V.</p>
+            </div>
+
+            <div class="calc-container">
+                <div class="calc-form-row">
+                    <div class="form-group">
+                        <label for="itemModelo">Selecciona Batería (Catálogo PVP)</label>
+                        <select id="itemModelo">
+                            <option value="0|Seleccionar modelo...">Seleccionar modelo...</option>
+                            <optgroup label="Gama 36V">
+                                <option value="345000|36V 5Ah Ultra-Liviano">36V 5Ah Ultra-Liviano - PVP: $345.000</option>
+                                <option value="395000|36V 7.5Ah Equilibrado">36V 7.5Ah Equilibrado - PVP: $395.000</option>
+                                <option value="485000|36V 10Ah Elite Compacto">36V 10Ah Elite Compacto - PVP: $485.000</option>
+                                <option value="545000|36V 15Ah Elite Pro">36V 15Ah Elite Pro - PVP: $545.000</option>
+                            </optgroup>
+                            <optgroup label="Gama 48V">
+                                <option value="545000|48V 12.5Ah Standard">48V 12.5Ah Standard - PVP: $545.000</option>
+                                <option value="695000|48V 15Ah Equilibrio Pro">48V 15Ah Equilibrio Pro - PVP: $695.000</option>
+                                <option value="845000|48V 20Ah Autonomía Elite">48V 20Ah Autonomía Elite - PVP: $845.000</option>
+                            </optgroup>
+                            <optgroup label="Gama 60V">
+                                <option value="895000|60V 15Ah Pro 21700">60V 15Ah Pro 21700 - PVP: $895.000</option>
+                                <option value="1095000|60V 20Ah Larga Distancia">60V 20Ah Larga Distancia - PVP: $1.095.000</option>
+                                <option value="1243000|60V 25Ah Máxima Autonomía">60V 25Ah Máxima Autonomía - PVP: $1.243.000</option>
+                                <option value="1350000|60V 30Ah Ultra Power">60V 30Ah Ultra Power - PVP: $1.350.000</option>
+                            </optgroup>
+                            <optgroup label="Gama 72V">
+                                <option value="1150000|72V 15Ah Pro">72V 15Ah Pro - PVP: $1.150.000</option>
+                                <option value="1290000|72V 20Ah Larga Distancia">72V 20Ah Larga Distancia - PVP: $1.290.000</option>
+                                <option value="1437000|72V 25Ah Elite Extra">72V 25Ah Elite Extra - PVP: $1.437.000</option>
+                                <option value="1550000|72V 30Ah Extreme Power">72V 30Ah Extreme Power - PVP: $1.550.000</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemCant">Cantidad</label>
+                        <input type="number" id="itemCant" value="1" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="itemVenta">Precio Venta (c/u)</label>
+                        <input type="number" id="itemVenta" placeholder="Ej: 1500000">
+                    </div>
+                    <button class="btn-add" onclick="agregarItem()">+ Agregar</button>
+                </div>
+
+                <table class="calc-table">
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Cant</th>
+                            <th>PVP c/u</th>
+                            <th>Precio Venta c/u</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaItems">
+                        <!-- Items rendered via JS -->
+                    </tbody>
+                </table>
+
+                <div class="results-box">
+                    <div class="result-item">
+                        <div class="result-label">Total Unidades</div>
+                        <div class="result-value" id="resTotalUnidades">0</div>
+                        <div id="resNivel" class="tier-indicator" style="background: rgba(255,255,255,0.1); color: #fff;">Sin Descuento (0%)</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Costo Total (Tu Inversión)</div>
+                        <div class="result-value" id="resCostoTotal">$ 0</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Venta Total (Cliente Paga)</div>
+                        <div class="result-value" id="resVentaTotal">$ 0</div>
+                    </div>
+                    <div class="result-item" style="grid-column: 1 / -1; margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem;">
+                        <div class="result-label">Ganancia Neta Limpia</div>
+                        <div class="result-value profit" id="resGananciaNeta">$ 0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MANUAL DE VENTAS: ARGUMENTOS -->
+    <section id="manual">
+        <div class="container">
+            <div class="section-header">
+                <h2>Manual de Ventas: <span class="text-gradient">Cómo Cerrar Tratos</span></h2>
+                <p style="color: var(--text-muted);">No hacemos propaganda, hacemos docencia. Si el cliente entiende, el cliente compra.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>💡 El Argumento Maestro</h3>
+                    <p>Cuando un cliente se queja del precio inicial, tu respuesta debe ser enfocada en la <strong>inversión a largo plazo</strong>.</p>
+                    <ul>
+                        <li><strong>Batería de Gel/Plomo:</strong> Dura 1 a 2 años. Pesa 28kg. Al 50% de carga, el vehículo pierde fuerza.</li>
+                        <li><strong>Batería de Litio:</strong> Dura hasta 8 años. Pesa 5kg. Mantiene la potencia máxima hasta el 1% de carga.</li>
+                    </ul>
+                    <p style="margin-top: 1rem; color: #fff;"><strong>Cierre sugerido:</strong> "No estás comprando una batería cara, estás asegurando 8 años de tranquilidad sin pisar un taller".</p>
+                </div>
+
+                <div class="card">
+                    <h3>🛠️ Respaldo Técnico (Tu escudo)</h3>
+                    <p>El cliente B2B o exigente te pedirá datos duros. Ofrécelos con seguridad:</p>
+                    <ul>
+                        <li><strong>Celdas:</strong> EVE 21700 (Grado A), la misma calidad que vehículos eléctricos de alta gama.</li>
+                        <li><strong>Cerebro (BMS):</strong> Daly o JBD Smart. Corta la corriente antes de un cortocircuito o incendio.</li>
+                        <li><strong>Ensamblaje:</strong> Soldadura de punto por pulso (Glitter 801D), a prueba del maltrato de las calles argentinas.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 style="margin: 3rem 0 1.5rem; text-align: center; font-size: 2rem;">Manejo de Objeciones Frecuentes</h3>
+            
+            <div class="grid-2">
+                <div class="objection">
+                    <h4>"En MercadoLibre vi una más barata"</h4>
+                    <p>Respuesta: "El mercado está lleno de baterías armadas con celdas de notebook recicladas sin balancear (Grado B o C). Duran 6 meses y se inflan. Nosotros te damos 1 año de garantía real de fábrica porque usamos celdas nuevas EVE 21700."</p>
+                </div>
+                <div class="objection">
+                    <h4>"No sé si le sirve a mi monopatín/moto"</h4>
+                    <p>Respuesta: "Fabricamos a medida. Solo pásame el voltaje de tu controlador, la capacidad que quieres y las medidas de tu cajón. <strong>Importante:</strong> Entregamos el pack con conectores estándar XT60 o XT30. Es vital verificar que coincidan con los de tu vehículo y <em>comprobar siempre las polaridades</em> antes de conectar para no dañar nada."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NIVELES Y BENEFICIOS -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Programa de <span class="text-gradient">Partners (Tiers)</span></h2>
+                <p style="color: var(--text-muted);">El simulador sumará automáticamente las unidades para aplicarte estos descuentos.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card" style="text-align: center;">
+                    <span class="tier-badge tier-silver">NIVEL SILVER</span>
+                    <h3 style="justify-content: center; font-size: 2rem; color: #fff;">12% de Descuento</h3>
+                    <p>A partir de la compra de <strong>2 unidades</strong>.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 2rem; text-align: left;">
+                        <li style="margin-bottom: 10px;">✔️ Ideal para empezar y capitalizarse.</li>
+                        <li style="margin-bottom: 10px;">✔️ Asesoramiento técnico por WhatsApp.</li>
+                        <li style="margin-bottom: 10px;">✔️ Material gráfico estándar.</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="text-align: center; border-color: var(--accent-blue);">
+                    <span class="tier-badge tier-gold">NIVEL GOLD</span>
+                    <h3 style="justify-content: center; font-size: 2rem; color: var(--accent-blue);">17% de Descuento</h3>
+                    <p>A partir de la compra de <strong>5 unidades</strong>.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 2rem; text-align: left;">
+                        <li style="margin-bottom: 10px;">✔️ Mayor margen operativo.</li>
+                        <li style="margin-bottom: 10px; color: var(--accent-green); font-weight: bold;">✔️ Landing Page Profesional GRATIS para tu negocio.</li>
+                        <li style="margin-bottom: 10px;">✔️ Derivación de clientes minoristas de tu ciudad.</li>
+                        <li style="margin-bottom: 10px;">✔️ Prioridad en lista de fabricación y despacho.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="text-align: center; border-left: none; border-top: 4px solid var(--accent-gold); border-radius: 8px;">
+                <h3 class="text-gold" style="font-size: 1.8rem; margin-bottom: 1rem;">¿Eres un Distribuidor Mayorista de Alto Volumen?</h3>
+                <p>Para empresas que superen las <strong>10 unidades mensuales</strong>, ofrecemos acuerdos de exclusividad regional, insignias de <strong>Diamond Partner</strong> y precios bajo contrato confidencial. Contáctanos directamente a gerencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 3rem 0; color: var(--text-muted); border-top: var(--border-subtle);">
+        <p>Lithium Electrónica B2B - San Rafael, Mendoza.</p>
+    </footer>
+
+    <!-- SCRIPT CALCULADORA MULTI-ITEM -->
+    <script>
+        let presupuestoItems = [];
+
+        function agregarItem() {
+            const selectValue = document.getElementById('itemModelo').value;
+            if (selectValue.startsWith('0|')) return; // No seleccionó nada
+
+            const [pvpStr, nombreStr] = selectValue.split('|');
+            const pvp = parseFloat(pvpStr);
+            const cant = parseInt(document.getElementById('itemCant').value) || 1;
+            const precioVenta = parseFloat(document.getElementById('itemVenta').value) || 0;
+
+            presupuestoItems.push({
+                nombre: nombreStr,
+                pvp: pvp,
+                cant: cant,
+                precioVenta: precioVenta
+            });
+
+            // Reset forms
+            document.getElementById('itemModelo').value = "0|Seleccionar modelo...";
+            document.getElementById('itemCant').value = "1";
+            document.getElementById('itemVenta').value = "";
+
+            renderPresupuesto();
+        }
+
+        function eliminarItem(index) {
+            presupuestoItems.splice(index, 1);
+            renderPresupuesto();
+        }
+
+        function renderPresupuesto() {
+            const tbody = document.getElementById('listaItems');
+            tbody.innerHTML = '';
+
+            let totalUnidades = 0;
+            let subtotalPVP = 0;
+            let totalVentaCliente = 0;
+
+            presupuestoItems.forEach((item, index) => {
+                totalUnidades += item.cant;
+                subtotalPVP += (item.pvp * item.cant);
+                totalVentaCliente += (item.precioVenta * item.cant);
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${item.nombre}</td>
+                    <td>${item.cant}</td>
+                    <td>${formatCurrency(item.pvp)}</td>
+                    <td>${formatCurrency(item.precioVenta)}</td>
+                    <td><button class="btn-remove" onclick="eliminarItem(${index})">X</button></td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            // Calcular Tier
+            let descuentoPorcentaje = 0;
+            let tierHTML = '';
+            
+            if (totalUnidades >= 5) {
+                descuentoPorcentaje = 0.17;
+                tierHTML = '<span style="background: var(--accent-blue); color: #fff; padding: 0.5rem 1rem; border-radius: 20px;">NIVEL GOLD (17% OFF)</span>';
+            } else if (totalUnidades >= 2) {
+                descuentoPorcentaje = 0.12;
+                tierHTML = '<span style="background: #e0e0e0; color: #000; padding: 0.5rem 1rem; border-radius: 20px;">NIVEL SILVER (12% OFF)</span>';
+            } else {
+                tierHTML = '<span style="background: rgba(255,255,255,0.1); color: #fff; padding: 0.5rem 1rem; border-radius: 20px;">Sin Descuento (0%)</span>';
+            }
+
+            // Calcular Costos Finales
+            const costoTotalLithium = subtotalPVP - (subtotalPVP * descuentoPorcentaje);
+            const gananciaNeta = totalVentaCliente > 0 ? (totalVentaCliente - costoTotalLithium) : 0;
+
+            // Update UI
+            document.getElementById('resTotalUnidades').innerText = totalUnidades;
+            document.getElementById('resNivel').innerHTML = tierHTML;
+            document.getElementById('resCostoTotal').innerText = formatCurrency(costoTotalLithium);
+            document.getElementById('resVentaTotal').innerText = formatCurrency(totalVentaCliente);
+            document.getElementById('resGananciaNeta').innerText = formatCurrency(gananciaNeta);
+
+            if (gananciaNeta < 0) {
+                document.getElementById('resGananciaNeta').style.color = '#ff5252';
+                document.getElementById('resGananciaNeta').style.background = 'none';
+                document.getElementById('resGananciaNeta').style.webkitTextFillColor = '#ff5252';
+            } else {
+                document.getElementById('resGananciaNeta').style.color = '';
+                document.getElementById('resGananciaNeta').style.background = 'var(--gradient-primary)';
+                document.getElementById('resGananciaNeta').style.webkitBackgroundClip = 'text';
+                document.getElementById('resGananciaNeta').style.webkitTextFillColor = 'transparent';
+            }
+        }
+
+        function formatCurrency(value) {
+            return new Intl.NumberFormat('es-AR', {
+                style: 'currency',
+                currency: 'ARS',
+                maximumFractionDigits: 0
+            }).format(value);
+        }
+    </script>
+</body>
+</html>
